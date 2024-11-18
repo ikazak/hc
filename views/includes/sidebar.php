@@ -15,7 +15,7 @@
                             
                     
 
-                        <li><a href="/main/mangeservices" aria-expanded="false"><i class="icon icon-globe-2"></i><span
+                        <li><a href="/main/manageservices" aria-expanded="false"><i class="icon icon-globe-2"></i><span
                                 class="nav-text">Manage Services</span></a></li>
                     
                     

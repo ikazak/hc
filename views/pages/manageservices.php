@@ -29,7 +29,26 @@
 
         <?=include_page("sidebar.php")?>
 
-        
+        <div class="content-body">
+            <!-- row -->
+            <div class="container-fluid">
+                <div class="row">
+
+        <div class="card">
+                            <div class="card-header d-block">
+                                <h4 class="card-title"></h4>
+                                <p class="mb-0 subtitle"><code></code></p>
+                            </div>
+                            <div class="card-body">
+                            <button type="button" class="btn btn-square btn-outline-secondary button"><b>Immunization</b></button>   
+                                <button type="button" class="btn btn-square btn-outline-secondary button"><b>Prenatal</b></button>
+                                <button type="button" class="btn btn-square btn-outline-secondary button"><b>Family Planning</b></button>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+        </div>
  
         <?=include_page("footer.php")?>
  
@@ -37,3 +56,13 @@
 </body>
 
 </html>
+<style>
+    .button{
+        font-size: 20px;
+        height: 80px;
+        width: 300px;
+    }
+    .card-body{
+        height: 300px;
+    }
+</style>

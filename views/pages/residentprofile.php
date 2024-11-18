@@ -28,8 +28,6 @@
         <?=include_page("header.php")?>
 
         <?=include_page("sidebar.php")?>
-
-        
  
         <?=include_page("footer.php")?>
  

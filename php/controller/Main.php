@@ -1,7 +1,7 @@
 <?php
 
 
-defined('BASEPATH') OR exit('No direct script access allowed');
+//defined('BASEPATH') OR exit('No direct script access allowed');
 class Main extends Yros{
 
     public function __construct() {
@@ -12,6 +12,10 @@ class Main extends Yros{
     // Main controller is YROS index controller, you can add functions but don't delete any (might cause system errors).
 
 
+
+    function add(){
+        view_page("add.php");
+    }
     function welcome_page(){
         view_page("welcome.php");
     }
@@ -21,12 +25,13 @@ class Main extends Yros{
     }
 
     function residentprofile(){
-        view_page("resindentprofile.php");
+        view_page("residentprofile.php");
     }
 
     function manageservices(){
         view_page("manageservices.php");
     }
+
 
     function medicineinventory(){
         view_page("medicineinventory.php");
