@@ -96,5 +96,110 @@
         "function": "add",
         "path": "Main/add",
         "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/nav.php@Main/manageservices": {
+        "view": "includes/nav.php",
+        "controller": "Main",
+        "function": "manageservices",
+        "path": "Main/manageservices",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/header.php@Main/manageservices": {
+        "view": "includes/header.php",
+        "controller": "Main",
+        "function": "manageservices",
+        "path": "Main/manageservices",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/sidebar.php@Main/manageservices": {
+        "view": "includes/sidebar.php",
+        "controller": "Main",
+        "function": "manageservices",
+        "path": "Main/manageservices",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/footer.php@Main/manageservices": {
+        "view": "includes/footer.php",
+        "controller": "Main",
+        "function": "manageservices",
+        "path": "Main/manageservices",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/manageservices.php@Main/manageservices": {
+        "view": "pages/manageservices.php",
+        "controller": "Main",
+        "function": "manageservices",
+        "path": "Main/manageservices",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/nav.php@Main/appointment": {
+        "view": "includes/nav.php",
+        "controller": "Main",
+        "function": "appointment",
+        "path": "Main/appointment",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/header.php@Main/appointment": {
+        "view": "includes/header.php",
+        "controller": "Main",
+        "function": "appointment",
+        "path": "Main/appointment",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/sidebar.php@Main/appointment": {
+        "view": "includes/sidebar.php",
+        "controller": "Main",
+        "function": "appointment",
+        "path": "Main/appointment",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/footer.php@Main/appointment": {
+        "view": "includes/footer.php",
+        "controller": "Main",
+        "function": "appointment",
+        "path": "Main/appointment",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/appointment.php@Main/appointment": {
+        "view": "pages/appointment.php",
+        "controller": "Main",
+        "function": "appointment",
+        "path": "Main/appointment",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/nav.php@Main/residentprofile": {
+        "view": "includes/nav.php",
+        "controller": "Main",
+        "function": "residentprofile",
+        "path": "Main/residentprofile",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/header.php@Main/residentprofile": {
+        "view": "includes/header.php",
+        "controller": "Main",
+        "function": "residentprofile",
+        "path": "Main/residentprofile",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/sidebar.php@Main/residentprofile": {
+        "view": "includes/sidebar.php",
+        "controller": "Main",
+        "function": "residentprofile",
+        "path": "Main/residentprofile",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/footer.php@Main/residentprofile": {
+        "view": "includes/footer.php",
+        "controller": "Main",
+        "function": "residentprofile",
+        "path": "Main/residentprofile",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/residentprofile.php@Main/residentprofile": {
+        "view": "pages/residentprofile.php",
+        "controller": "Main",
+        "function": "residentprofile",
+        "path": "Main/residentprofile",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
     }
 }
