@@ -38,6 +38,9 @@
                                                     <label class="form-check-label" for="basic_checkbox_1">Remember me</label>
                                                 </div>
                                             </div>
+                                            <div>
+                                                <span class="time" id="timerror" style="display: none;"> Try again in <span id="timerz"></span> 's </span>
+                                            </div>
                                             <div class="form-group">
                                                 <a href="page-forgot-password.html">Forgot Password?</a>
                                             </div>
@@ -70,3 +73,37 @@
 </body>
 
 </html>
+
+<style>
+    .time{
+        color: red;
+    }
+</style>
+
+
+
+<?php if(isset($_SESSION['blocked'])): ?>
+    <script>
+        window.addEventListener("load", function(){
+            document.getElementById('timerror').style.display = '';
+            var min = parseInt("<?=$_SESSION['min']?>");
+            var sec = "<?=$_SESSION['sec']?>";
+            //console.log("");
+            function looping(){
+                if(min<0){
+                    window.location.href = "/log/unblock";
+                    return;
+                }
+                sec--;
+                document.getElementById("timerz").innerText = min+":"+sec;
+                if(sec<=0){
+                    min--;
+                    sec = 59;
+                }
+                setTimeout(looping, 1000);
+            }
+            looping();
+        });
+
+    </script>
+<?php endif; ?>

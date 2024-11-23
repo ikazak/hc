@@ -411,6 +411,16 @@ class Validation_lib{
         
     }
 
+    public function input_has_error(string $name):bool{
+        $ret = false;
+        if($this->get_input_error($name)==""||$this->get_input_error($name)==null){
+            $ret = false;
+        }else{
+            $ret = true;
+        }
+        return $ret;
+    }
+
     public function get_all_input_error(){
         $YROS = &Yros::get_instance();
         $all = $YROS->yros_input_validation_errors;
@@ -437,6 +447,24 @@ class Validation_lib{
         $d = DateTime::createFromFormat($format, $date);
         return $d && $d->format($format) === $date;
     }
+
+    public function csrf(){
+        if (!isset($_SESSION['csrf_token_yros5'])) {
+            $_SESSION['csrf_token_yros5'] = bin2hex(random_bytes(32));
+        }
+        return '<input type="hidden" name="csrf_token_yros5" value="' . $_SESSION['csrf_token_yros5'] . '">';
+    }
+
+    public function validate_csrf(bool $reuse_token = false){
+        if (!isset($_POST['csrf_token_yros5']) || $_POST['csrf_token_yros5'] !== $_SESSION['csrf_token_yros5']) {
+            die("Invalid CSRF token");
+        }else{
+            if($reuse_token == false){
+                unset($_SESSION['csrf_token_yros5']);
+            }
+        }
+    }
+    
     
 }
 

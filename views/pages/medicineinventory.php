@@ -88,7 +88,7 @@
                                                 <td><?=$hc_expirydate?></td>
                                                 <td><?=$hc_manufacturer?></td>
                                                 <td><?=$hc_quality?></td>
-                                                <td><div><a href="/crud/editmedicine?med_id=<?=$hc_id?>"><button class="btn btn-warning">edit</button></a></div><div><a href="/crud/deletemedicine?med_id=<?=$hc_id?>"><button class="btn btn-danger">delete</button></a></div></td>
+                                                <td><div><a href="/crud/editmedicine?med_id=<?=$hc_id?>"><button class="btn btn-warning"><img src="<?=assets?>/images/edit-text.png" alt="" height="20" width="20"></button></a></div><div><a href="/crud/deletemedicine?med_id=<?=$hc_id?>"><button class="btn btn-danger"><img src="<?=assets?>/images/delete.png" alt="" height="20" width="20"></button></a></div></td>
                                             </tr>
                                             <?php endwhile;?>
                                         </tbody>

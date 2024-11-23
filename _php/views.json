@@ -1,0 +1,100 @@
+{
+    "pages/welcome.php@Main/welcome_page": {
+        "view": "pages/welcome.php",
+        "controller": "Main",
+        "function": "welcome_page",
+        "path": "Main/welcome_page",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/nav.php@Page/index": {
+        "view": "includes/nav.php",
+        "controller": "Page",
+        "function": "index",
+        "path": "Page/index",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/header.php@Page/index": {
+        "view": "includes/header.php",
+        "controller": "Page",
+        "function": "index",
+        "path": "Page/index",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/sidebar.php@Page/index": {
+        "view": "includes/sidebar.php",
+        "controller": "Page",
+        "function": "index",
+        "path": "Page/index",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/content.php@Page/index": {
+        "view": "includes/content.php",
+        "controller": "Page",
+        "function": "index",
+        "path": "Page/index",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/footer.php@Page/index": {
+        "view": "includes/footer.php",
+        "controller": "Page",
+        "function": "index",
+        "path": "Page/index",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/viewpage.php@Page/index": {
+        "view": "pages/viewpage.php",
+        "controller": "Page",
+        "function": "index",
+        "path": "Page/index",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/nav.php@Main/medicineinventory": {
+        "view": "includes/nav.php",
+        "controller": "Main",
+        "function": "medicineinventory",
+        "path": "Main/medicineinventory",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/header.php@Main/medicineinventory": {
+        "view": "includes/header.php",
+        "controller": "Main",
+        "function": "medicineinventory",
+        "path": "Main/medicineinventory",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/sidebar.php@Main/medicineinventory": {
+        "view": "includes/sidebar.php",
+        "controller": "Main",
+        "function": "medicineinventory",
+        "path": "Main/medicineinventory",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/footer.php@Main/medicineinventory": {
+        "view": "includes/footer.php",
+        "controller": "Main",
+        "function": "medicineinventory",
+        "path": "Main/medicineinventory",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/medicineinventory.php@Main/medicineinventory": {
+        "view": "pages/medicineinventory.php",
+        "controller": "Main",
+        "function": "medicineinventory",
+        "path": "Main/medicineinventory",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/edit@Crud/editmedicine": {
+        "view": "pages/edit",
+        "controller": "Crud",
+        "function": "editmedicine",
+        "path": "Crud/editmedicine",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/add.php@Main/add": {
+        "view": "pages/add.php",
+        "controller": "Main",
+        "function": "add",
+        "path": "Main/add",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    }
+}
