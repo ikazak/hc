@@ -201,5 +201,47 @@
         "function": "residentprofile",
         "path": "Main/residentprofile",
         "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/nav.php@Main/viewpage": {
+        "view": "includes/nav.php",
+        "controller": "Main",
+        "function": "viewpage",
+        "path": "Main/viewpage",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/header.php@Main/viewpage": {
+        "view": "includes/header.php",
+        "controller": "Main",
+        "function": "viewpage",
+        "path": "Main/viewpage",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/sidebar.php@Main/viewpage": {
+        "view": "includes/sidebar.php",
+        "controller": "Main",
+        "function": "viewpage",
+        "path": "Main/viewpage",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/content.php@Main/viewpage": {
+        "view": "includes/content.php",
+        "controller": "Main",
+        "function": "viewpage",
+        "path": "Main/viewpage",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/footer.php@Main/viewpage": {
+        "view": "includes/footer.php",
+        "controller": "Main",
+        "function": "viewpage",
+        "path": "Main/viewpage",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/viewpage.php@Main/viewpage": {
+        "view": "pages/viewpage.php",
+        "controller": "Main",
+        "function": "viewpage",
+        "path": "Main/viewpage",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
     }
 }

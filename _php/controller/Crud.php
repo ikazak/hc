@@ -36,6 +36,15 @@
             redirect("main/medicineinventory");
         }
 
+        function addresident(){
+            $pict = upload_file("photo",auto_rename);
+            $data = post_data();
+            $data['photo'] = $pict['filename'];
+            $result = db_insert("hc_resident",$data);
+            db_dump_errors();
+            redirect("main/residentprofile");
+        }
+
         
     }
 ?>
