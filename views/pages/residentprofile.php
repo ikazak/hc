@@ -34,6 +34,7 @@
 <div class="container-fluid">   
     <div class="row">
         <div class="col-12">
+          <div><button data-toggle="modal" data-target="#bd-example-modal-lg" type="button" id="sendfile">ADD</button></div>
         <section class="card-section">
         <div class="card">
             <img src="https://via.placeholder.com/250x150" alt="Profile Image">
@@ -61,6 +62,34 @@
         </div>
         </section>
 
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade bs-example-modal" id="bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myLargeModalLabel">Send files</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <form action="" method="post" enctype="multipart/form-data">
+            <div class="modal-body">
+                <div class="form-group">
+                  <label for="">Name:</label>
+                  <input type="text" class="form-control">
+                </div> 
+                
+                <div class="form-group">
+                  <label for="">Name:</label>
+                  <input type="text" class="form-control">
+                </div> 
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-primary" >Send</button>
+            </div>
+            </form>
         </div>
     </div>
 </div>
