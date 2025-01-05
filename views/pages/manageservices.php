@@ -29,26 +29,149 @@
 
         <?=include_page("sidebar.php")?>
 
+        
+
         <div class="content-body">
             <!-- row -->
             <div class="container-fluid">
+                
                 <div class="row">
-
-        <div class="card">
-                            <div class="card-header d-block">
-                                <h4 class="card-title"></h4>
-                                <p class="mb-0 subtitle"><code></code></p>
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div>
+                                <h4 class="card-title"><b>Services</b></h4>
+                                </div>
                             </div>
                             <div class="card-body">
-                            <button type="button" class="btn btn-square btn-outline-secondary button"><b>Immunization</b></button>   
-                                <button type="button" class="btn btn-square btn-outline-secondary button"><b>Prenatal</b></button>
-                                <button type="button" class="btn btn-square btn-outline-secondary button"><b>Family Planning</b></button>
+                            <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-md-6">
+        <div class="card d-flex flex-row align-items-center" style="height: 100px; cursor:pointer;" data-toggle="modal" data-target="#bd-example-modal-lg" >
+          <img src="<?=img("referral.jpg")?>" class="" alt="Card Image 1" style="width: 150px;" height="100%">
+          <div class="">
+            <h5 class="">Referral</h5>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-md-6">
+        <div class="card d-flex flex-row align-items-center" style="height: 100px; cursor:pointer;">
+          <img src="<?=img("family.jpg")?>" class="" alt="Card Image 2" style="width: 150px;" height="100%">
+          <div class="">
+            <h5 class="">Family Planning</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card d-flex flex-row align-items-center" style="height: 100px; cursor:pointer;">
+          <img src="<?=img("immunazation.jpg")?>" class="" alt="Card Image 1" style="width: 150px;" height="100%">
+          <div class="">
+            <h5 class="">Immunazation</h5>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-md-6">
+        <div class="card d-flex flex-row align-items-center" style="height: 100px; cursor:pointer;">
+          <img src="<?=img("busong.jpg")?>" class="" alt="Card Image 2" style="width: 150px;" height="100%">
+          <div class="">
+            <h5 class="">Prenatal</h5>
+          </div>
+        </div>
+      </div>
+    </div>
                             </div>
                         </div>
-
+                    </div>
                 </div>
             </div>
         </div>
+
+
+<div class="modal fade bs-example-modal" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myLargeModalLabel">Add Resident</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <form action="/crud/addresident" method="post" enctype="multipart/form-data">
+            <div class="modal-body">
+
+                <div class="row">
+                  <div class="col-6">
+                  <div class="form-group">
+                    <label for="">First Name:</label>
+                    <input type="text" name="fname" class="form-control">
+                  </div> 
+                  </div>
+                  
+                  <div class="col-6">
+                  <div class="form-group">
+                    <label for="">Surname:</label>
+                    <input type="text" name="surname" class="form-control">
+                  </div> 
+                  </div>
+                </div>
+
+                
+
+                
+
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-primary" >Send</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade bs-example-modal" id="bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myLargeModalLabel">Add Resident</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <form action="/crud/addresident" method="post" enctype="multipart/form-data">
+            <div class="modal-body">
+
+                <div class="row">
+                  <div class="col-6">
+                  <div class="form-group">
+                    <label for="">First Name:</label>
+                    <input type="text" name="fname" class="form-control">
+                  </div> 
+                  </div>
+                  
+                  <div class="col-6">
+                  <div class="form-group">
+                    <label for="">Surname:</label>
+                    <input type="text" name="surname" class="form-control">
+                  </div> 
+                  </div>
+                </div>
+
+                
+
+                
+
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-primary" >Send</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+                           
  
         <?=include_page("footer.php")?>
  
@@ -63,6 +186,20 @@
         width: 300px;
     }
     .card-body{
-        height: 300px;
+        height: 400px;
     }
+    td{
+        color: blue;
+        font-size: 17px;
+    }
+    .card-header{
+        
+        background-color: #011457;
+        height: 70px;
+    }
+    .card-title{
+        color: white;
+        font-size: 20px;
+    }
+    
 </style>

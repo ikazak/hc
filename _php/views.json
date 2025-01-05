@@ -243,5 +243,40 @@
         "function": "viewpage",
         "path": "Main/viewpage",
         "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/nav.php@Main/medicalhistory": {
+        "view": "includes/nav.php",
+        "controller": "Main",
+        "function": "medicalhistory",
+        "path": "Main/medicalhistory",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/header.php@Main/medicalhistory": {
+        "view": "includes/header.php",
+        "controller": "Main",
+        "function": "medicalhistory",
+        "path": "Main/medicalhistory",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/sidebar.php@Main/medicalhistory": {
+        "view": "includes/sidebar.php",
+        "controller": "Main",
+        "function": "medicalhistory",
+        "path": "Main/medicalhistory",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "includes/footer.php@Main/medicalhistory": {
+        "view": "includes/footer.php",
+        "controller": "Main",
+        "function": "medicalhistory",
+        "path": "Main/medicalhistory",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
+    },
+    "pages/medicalhistory.php@Main/medicalhistory": {
+        "view": "pages/medicalhistory.php",
+        "controller": "Main",
+        "function": "medicalhistory",
+        "path": "Main/medicalhistory",
+        "description": "Last access to this view, if view controller is changed, we can't track it."
     }
 }
