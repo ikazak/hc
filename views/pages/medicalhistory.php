@@ -40,7 +40,7 @@
                         <div class="card">
                             <div class="card-header">
                                 <div>
-                                <h4 class="card-title">Apppointment</h4>
+                                <h4 class="card-title">History</h4>
                                 </div>
                                 
                             </div>
