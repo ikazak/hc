@@ -45,6 +45,12 @@
             redirect("main/residentprofile");
         }
 
-        
+        function getappointment(){
+            $data = db_set_query('select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;');
+            json_response($data);
+        }
+
     }
+
+    
 ?>

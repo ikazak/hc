@@ -31,6 +31,7 @@
 
         <div class="content-body">
             <!-- row -->
+
 <div class="container-fluid">   
     <div class="row">
         <div class="col-12">
@@ -69,6 +70,10 @@
         </div>
     </div>
 </div>
+
+</div>
+
+
 
 
 <div class="modal fade bs-example-modal" id="bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
