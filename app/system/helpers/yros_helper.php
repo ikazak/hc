@@ -49,12 +49,28 @@ if(! function_exists("get_file_size")){
     }
 }
 
+if (!function_exists("load_class")) {
+    function load_class(string $classname) {
+
+        $classFile =  "app/system/classes/" . $classname . ".php";
+        if (!file_exists($classFile)) {
+            throw new Exception("Class file not found: " . $classFile);
+        }
+        include_once $classFile;
+        if (!class_exists($classname, false)) {
+            throw new Exception("Class not found after including file: " . $classname);
+        }
+        return new $classname();
+    }
+}
+
+
 
 if(! function_exists("check_file")){
-    function check_file(string $inputname){
-        /** error when file is not exist.
+    /** error when file is not exist.
          * might need to add enctype="multipart/form-data" in form
          */
+    function check_file(string $inputname){
         if(! isset($_FILES)){
             show_error("No files has been submitted");
         }
@@ -64,6 +80,21 @@ if(! function_exists("check_file")){
         if($_FILES[$inputname]["name"]==""||$_FILES[$inputname]["name"]==null){
             show_error("File $inputname not found.!");
         }
+    }
+}
+
+if(! function_exists("has_file_submitted")){
+    function has_file_submitted(string $inputname){
+        if(! isset($_FILES)){
+            return false;
+        }
+        if(! isset($_FILES[$inputname]["name"])){
+            return false;
+        }
+        if($_FILES[$inputname]["name"]==""||$_FILES[$inputname]["name"]==null){
+            return false;
+        }
+        return true;
     }
 }
 
@@ -342,6 +373,27 @@ if(! function_exists("get_current_path")){
 if(! function_exists("encrypt_password")){
     function encrypt_password($password){
         return password_hash($password, PASSWORD_DEFAULT);
+    }
+}
+
+if(! function_exists("array_exclude")){
+    function array_exclude(array &$array, $key){
+        unset($array[$key]);
+        return $array;
+    }
+}
+
+if(! function_exists("import_jspost")){
+    function import_jspost(){
+        $jspost = public_code_path("jspost.js");
+        echo "<script src='$jspost'></script>";
+    }
+}
+
+if(! function_exists("jspost_script")){
+    function jspost_script(){
+        $jspost = public_code_path("jspost.js");
+        return "<script src='$jspost'></script>";
     }
 }
 

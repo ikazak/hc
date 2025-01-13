@@ -21,6 +21,9 @@ if(! function_exists('post_data')){
         if (isset($_SERVER['CONTENT_TYPE']) && $_SERVER['CONTENT_TYPE'] === 'application/json') {
             $json = file_get_contents('php://input');
             $data = json_decode($json, true);
+            if($data == null || empty($data)){
+                $data = [];
+            }
     
             if (json_last_error() === JSON_ERROR_NONE) {
                 $return = $data; 
@@ -167,6 +170,27 @@ if(! function_exists("input")){
     }
 }
 
+if(! function_exists("file_submitted")){
+    function file_submitted(string $inputname){
+        return has_file_submitted($inputname);
+    }
+}
+
+if(! function_exists("file_to_longblob")){
+    function file_to_longblob(string $fileinput){
+        $YROS = &Yros::get_instance();
+        return $YROS->filelib->file_to_longblob($fileinput);
+    }
+}
+
+if(! function_exists("download_longblob")){
+    function download_blob_file(string $blob_data, string $filename = ""){
+        $YROS = &Yros::get_instance();
+        $YROS->filelib->download_longblob($blob_data, $filename);
+    }
+}
+
+
 if(! function_exists("input_value")){
     function input_value(string $inputname){
         /**
@@ -246,7 +270,7 @@ if(! function_exists("file_input")){
 if(! function_exists("validate_input")){
     function validate_input(string $inputname, string $label, string $validation, int $type = 1){
         $YROS = &Yros::get_instance();
-        $YROS->validationlib->validate_input($inputname, $label,$validation, $type);
+        return $YROS->validationlib->validate_input($inputname, $label,$validation, $type);
     }
 }
 
