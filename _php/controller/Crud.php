@@ -50,6 +50,11 @@
             json_response($data);
         }
 
+        function displayrequest(){
+            $data = db_set_query('select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";');
+            json_response($data);
+        }
+
     }
 
     

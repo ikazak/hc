@@ -22,17 +22,10 @@
                                     <div class="pulse-css"></div>
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-right" id="showw">
-                                    <ul class="list-unstyled">
-                                        <li class="media dropdown-item">
-                                            <span class="success"><i class="ti-user"></i></span>
-                                            <div class="media-body">
-                                                
-                                            </div>
-                                            <a href="">approve</a>
-                                        </li>
+                                    <ul class="list-unstyled" id="notif" style="max-height: 400px;overflow-y:scroll;">
+                                    
                                     </ul>
-                                    <a class="all-notification" href="#">See all notifications <i
-                                            class="ti-arrow-right"></i></a>
+                                    
                                 </div>
                             </li>
                             <li class="nav-item dropdown header-profile">
@@ -88,4 +81,25 @@
                 
                 
             }
+        </script>
+
+        <?=jspost_script()?>
+
+        <script>
+            window_loaded(async()=>{
+                let result = await direct_get("/Crud/displayrequest");
+                log(result);
+                let data = result.backend.data;
+                data.forEach(column => {
+                    add_html("notif",`<li class="media dropdown-item">
+                                            <span class="success"><i class="ti-user"></i></span>
+                                            <div class="media-body">
+                                                    <b>${column.fullname}</b>
+                                                    <div>${column.serviceType}</div>
+                                                    <div><small>${column.scheduleDate}</small></div>
+                                            </div>
+                                            <a href="">approve</a>
+                                        </li>`)
+                });
+            });
         </script>
