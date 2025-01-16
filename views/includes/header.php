@@ -88,7 +88,6 @@
         <script>
             window_loaded(async()=>{
                 let result = await direct_get("/Crud/displayrequest");
-                log(result);
                 let data = result.backend.data;
                 data.forEach(column => {
                     add_html("notif",`<li class="media dropdown-item">

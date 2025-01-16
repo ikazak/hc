@@ -175,10 +175,6 @@
                 </div>
                 </div>
 
-                
-
-
-
             </div>
             <div class="modal-footer">
                 <button type="submit" class="btn btn-primary" >Send</button>
@@ -205,21 +201,21 @@
                 
 
             <div class="profile-card my-4">
-  <!-- Profile Picture -->
-  <img src="https://via.placeholder.com/120" alt="Profile Picture" class="profile-picture">
-  <!-- Profile Info -->
-  <h2>Juan Dela Cruz</h2>
-  <ul class="profile-details">
-    <li><strong>Age:</strong> 30</li>
-    <li><strong>Contact Number:</strong> +63 912 345 6789</li>
-    <li><strong>Sex:</strong> Male</li>
-    <li><strong>Birthday:</strong> January 1, 1994</li>
-    <li><strong>Address:</strong> 123 Mabini Street, Manila, Philippines</li>
-    <li><strong>Civil Status:</strong> Single</li>
-    <li><strong>Occupation:</strong> Software Developer</li>
-    <li><strong>Religion:</strong> Roman Catholic</li>
-  </ul>
-</div>
+                <!-- Profile Picture -->
+                <img src="https://via.placeholder.com/120" alt="Profile Picture" class="profile-picture">
+                <!-- Profile Info -->
+                <h2>Juan Dela Cruz</h2>
+                <ul class="profile-details">
+                  <li><strong>Age:</strong> 30</li>
+                  <li><strong>Contact Number:</strong> +63 912 345 6789</li>
+                  <li><strong>Sex:</strong> Male</li>
+                  <li><strong>Birthday:</strong> January 1, 1994</li>
+                  <li><strong>Address:</strong> 123 Mabini Street, Manila, Philippines</li>
+                  <li><strong>Civil Status:</strong> Single</li>
+                  <li><strong>Occupation:</strong> Software Developer</li>
+                  <li><strong>Religion:</strong> Roman Catholic</li>
+                </ul>
+              </div>
 
 
 

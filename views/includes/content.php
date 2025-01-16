@@ -21,7 +21,7 @@
                             <div class="stat-widget-two card-body">
                                 <div class="stat-content">
                                     <div class="stat-text">No. of Medicine</div>
-                                    <div class="stat-digit"> <i class=""></i>80</div>
+                                    <div class="stat-digit"> <i class=""></i><span id="cmedicine"></span></div>
                                 </div>
                                 <div class="progress">
                                     <div class="progress-bar progress-bar-success w-85" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
@@ -34,7 +34,7 @@
                             <div class="stat-widget-two card-body">
                                 <div class="stat-content">
                                     <div class="stat-text">No. of Patients</div>
-                                    <div class="stat-digit"> <i class=""></i>421</div>
+                                    <div class="stat-digit"> <i class=""></i><span id="cpatient"></span></div>
                                 </div>
                                 <div class="progress">
                                     <div class="progress-bar progress-bar-primary w-75" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"></div>
@@ -47,7 +47,7 @@
                             <div class="stat-widget-two card-body">
                                 <div class="stat-content">
                                     <div class="stat-text">Patients of Attended</div>
-                                    <div class="stat-digit"> <i class=""></i> 53</div>
+                                    <div class="stat-digit"> <i class=""></i><span id="cattended"></span></div>
                                 </div>
                                 <div class="progress">
                                     <div class="progress-bar progress-bar-warning w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
@@ -60,7 +60,7 @@
                             <div class="stat-widget-two card-body">
                                 <div class="stat-content">
                                     <div class="stat-text">Patients Pending</div>
-                                    <div class="stat-digit"> <i class=""></i>650</div>
+                                    <div class="stat-digit"> <i class=""></i><span id="cpending"></span></div>
                                 </div>
                                 <div class="progress">
                                     <div class="progress-bar progress-bar-danger w-65" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
@@ -142,4 +142,24 @@
         Scripts
     ***********************************-->
     <!-- Required vendors -->
-    
+
+    <?=jspost_script()?>
+
+    <script>
+        window_loaded(async()=>{
+
+            let patient = await direct_get("/datas/countPatients");
+            set_html("cpatient", patient.backend.first_row.count);
+
+            let medicine = await direct_get("/datas/countMedicine");
+            set_html("cmedicine", medicine.backend.first_row.count);
+
+            let attendedpatient = await direct_get("/datas/countattended");
+            set_html("cattended", attendedpatient.backend.first_row.count);
+
+            let pending = await direct_get("/datas/countpending");
+            set_html("cpending", pending.backend.first_row.count);
+
+
+        });
+    </script>

@@ -55,6 +55,60 @@
             json_response($data);
         }
 
+
+        function send(){
+
+
+// API endpoint
+$url = 'https://514ppj.api.infobip.com/sms/2/text/advanced';
+
+// Headers
+$headers = [
+    'Authorization: App 171ef64c432a7db3398c88e299d66a88-6ab0f47e-21fa-4f8d-b51a-0d2b85c4254b',
+    'Content-Type: application/json',
+    'Accept: application/json',
+];
+
+// Payload
+$data = [
+    "messages" => [
+        [
+            "destinations" => [
+                ["to" => "639534479283"]
+            ],
+            "from" => "ServiceSMS",
+            "text" => "Congratulations on sending your first message. Go ahead and check the delivery report in the next step."
+        ]
+    ]
+];
+
+// Initialize cURL
+$ch = curl_init();
+
+// Set cURL options
+curl_setopt($ch, CURLOPT_URL, $url);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_POST, true);
+curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
+
+// Execute the request and get the response
+$response = curl_exec($ch);
+
+// Check for errors
+if (curl_errno($ch)) {
+    echo 'Error:' . curl_error($ch);
+} else {
+    // Print the response
+    echo $response;
+}
+
+// Close cURL
+curl_close($ch);
+
+
+        }
+
     }
 
     
