@@ -1,0 +1,38 @@
+[2025-01-23 15:11:18] INSERT INTO patient (first_name, surname, bday, age, contact, civil_status, occupation, religion, sex, home_address) VALUES ('tyrence', 'limen', '2025-02-08', '12', '09534479283', 'single', 'kawatan', 'inc', 'male', 'libacao')
+[2025-01-23 15:11:19] INSERT INTO immunization_application (patientID, scheduleID, applicationDate, Status, servicesID) VALUES ('41', '1', '2025-01-23', 'pending', '1')
+[2025-01-23 15:11:19] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' 2 C:\Users\tyron\OneDrive\Pictures\fsemproj\hc\_php\controller\Form.php(38): db_insert('immunization_ap...', Array)
+
+6 {main}
+[2025-01-23 15:11:19] INSERT INTO prenatalschedule (patientID, Date, applicationDate, Status, servicesID) VALUES ('41', '2025-01-23', '2025-01-23', 'pending', '1')
+[2025-01-23 15:11:19] INSERT INTO family_planning (patientID, Date, Facility, ServicesProvided, applicationDate, Status, servicesID) VALUES ('41', '2025-02-08', 'Libacao health center', 'commodity provided', '2025-01-23', 'pending', '1')
+[2025-01-23 15:16:46] INSERT INTO patient (first_name, surname, bday, age, contact, civil_status, occupation, religion, sex, home_address) VALUES ('tyrence', 'limen', '2025-02-08', '12', '09534479283', 'single', 'kawatan', 'inc', 'male', 'libacao')
+[2025-01-23 15:16:46] INSERT INTO immunization_application (patientID, scheduleID, applicationDate, Status, servicesID) VALUES ('44', '1', '2025-01-23', 'pending', '1')
+[2025-01-23 15:16:47] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' 2 C:\Users\tyron\OneDrive\Pictures\fsemproj\hc\_php\controller\Form.php(38): db_insert('immunization_ap...', Array)
+
+6 {main}
+[2025-01-23 15:16:47] INSERT INTO prenatalschedule (patientID, immunizationID, Date, applicationDate, Status, servicesID) VALUES ('44', '', '2025-01-23', '2025-01-23', 'pending', '1')
+[2025-01-23 15:16:48] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'immunizationID' in 'field list' 2 C:\Users\tyron\OneDrive\Pictures\fsemproj\hc\_php\controller\Form.php(50): db_insert('prenatalschedul...', Array)
+
+6 {main}
+[2025-01-23 15:16:48] INSERT INTO family_planning (patientID, Date, Facility, ServicesProvided, applicationDate, Status, servicesID) VALUES ('44', '2025-02-08', 'Libacao health center', 'commodity provided', '2025-01-23', 'pending', '1')
+[2025-01-23 15:17:44] INSERT INTO patient (first_name, surname, bday, age, contact, civil_status, occupation, religion, sex, home_address) VALUES ('tyrence', 'limen', '2025-02-08', '12', '09534479283', 'single', 'kawatan', 'inc', 'male', 'libacao')
+[2025-01-23 15:17:45] INSERT INTO immunization_application (patientID, scheduleID, applicationDate, Status, servicesID, immunizationID) VALUES ('45', '1', '2025-01-23', 'pending', '1', '')
+[2025-01-23 15:17:45] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' 2 C:\Users\tyron\OneDrive\Pictures\fsemproj\hc\_php\controller\Form.php(39): db_insert('immunization_ap...', Array)
+
+6 {main}
+[2025-01-23 15:17:45] INSERT INTO prenatalschedule (patientID, Date, applicationDate, Status, servicesID) VALUES ('45', '2025-01-23', '2025-01-23', 'pending', '1')
+[2025-01-23 15:17:46] INSERT INTO family_planning (patientID, Date, Facility, ServicesProvided, applicationDate, Status, servicesID) VALUES ('45', '2025-02-08', 'Libacao health center', 'commodity provided', '2025-01-23', 'pending', '1')
+[2025-01-23 15:18:51] INSERT INTO patient (first_name, surname, bday, age, contact, civil_status, occupation, religion, sex, home_address) VALUES ('tyrence', 'limen', '2025-02-08', '12', '09534479283', 'single', 'kawatan', 'inc', 'male', 'libacao')
+[2025-01-23 15:18:51] INSERT INTO immunization_application (patientID, scheduleID, applicationDate, Status, servicesID, immunizationID) VALUES ('46', '1', '2025-01-23', 'pending', '1', '50')
+[2025-01-23 15:18:51] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' 2 C:\Users\tyron\OneDrive\Pictures\fsemproj\hc\_php\controller\Form.php(39): db_insert('immunization_ap...', Array)
+
+6 {main}
+[2025-01-23 15:18:51] INSERT INTO prenatalschedule (patientID, Date, applicationDate, Status, servicesID) VALUES ('46', '2025-01-23', '2025-01-23', 'pending', '1')
+[2025-01-23 15:18:51] INSERT INTO family_planning (patientID, Date, Facility, ServicesProvided, applicationDate, Status, servicesID) VALUES ('46', '2025-02-08', 'Libacao health center', 'commodity provided', '2025-01-23', 'pending', '1')
+[2025-01-23 15:20:31] INSERT INTO patient (first_name, surname, bday, age, contact, civil_status, occupation, religion, sex, home_address) VALUES ('tyrence', 'limen', '2025-02-08', '12', '09534479283', 'single', 'kawatan', 'inc', 'male', 'libacao')
+[2025-01-23 15:20:31] INSERT INTO immunization_application (patientID, scheduleID, applicationDate, Status, servicesID, immunizationID) VALUES ('47', '1', '2025-01-23', 'pending', '1', '50')
+[2025-01-23 15:20:31] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' 2 C:\Users\tyron\OneDrive\Pictures\fsemproj\hc\_php\controller\Form.php(39): db_insert('immunization_ap...', Array)
+
+6 {main}
+[2025-01-23 15:20:32] INSERT INTO prenatalschedule (patientID, Date, applicationDate, Status, servicesID) VALUES ('47', '2025-01-23', '2025-01-23', 'pending', '1')
+[2025-01-23 15:20:32] INSERT INTO family_planning (patientID, Date, Facility, ServicesProvided, applicationDate, Status, servicesID) VALUES ('47', '2025-02-08', 'Libacao health center', 'commodity provided', '2025-01-23', 'pending', '1')

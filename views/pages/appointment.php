@@ -164,13 +164,22 @@
         
         log(data);
         data.forEach(column => {
+            let status = column.Status;
+            let stat = ``;
+            if (status == "pending"){
+                stat = `Pending`;
+            }
+            else{
+                stat = `<a href="">incomplete</a>`;
+            }
+            
             datatable.row.add([
                 column.appointmentID || "1",
                 column.fullname || "1",
                 column.Date || "1",
                 column.ServicesType || "1",
                 column.ApplicationDate || "1",
-                column.Status || "1",
+                stat
             ]).draw();
         });
     });
