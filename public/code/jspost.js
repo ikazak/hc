@@ -8,6 +8,8 @@
  * @param {*}  
  * @returns 
  */
+const jserrorcode =-1;
+const jssuccesscode = 200;
 
 async function jspost(url, data, headers = { 'Content-Type': 'application/json' }) {
     let ret = { code: -1, status: 'error', message: 'error message' };
@@ -22,31 +24,43 @@ async function jspost(url, data, headers = { 'Content-Type': 'application/json' 
         if (response.ok) {
             const result = await response.json();
             ret = {
-                code: 200,
+                code: jssuccesscode,
+                backendcode: result.code || 0,
                 status: 'ok',
-                message: 'Okay',
-                data: result,
+                message: result.message || 'Okay',
+                data: result.data || [],
                 result: result,
                 backend: result,
+                body: data,
+                headers: headers,
+                url: url
             };
         } else {
             ret = {
-                code: -1,
+                code: jserrorcode,
+                backendcode: 404,
                 status: 'error',
                 message: `HTTP error! status: ${response.status}`,
                 error: `HTTP error! status: ${response.status}`,
+                body: data,
+                headers: headers,
+                url: url
             };
-            console.error(`HTTP error! status: ${response.status}`);
+            console.error(ret);
         }
     } catch (error) {
         ret = {
-            code: -1,
+            code: jserrorcode,
             status: 'error',
-            message: 'Error',
-            data: JSON.stringify(data),
+            backendcode: 404,
+            message: error.message || 'Error',
+            body: data,
             error: error.message || error,
-            allerror: error
+            allerror: error,
+            headers: headers,
+            url: url
         };
+        console.error(ret);
     }
 
     return ret;
@@ -67,7 +81,7 @@ async function jspost_plain(url, data, headers = { 'Content-Type': 'application/
             ret = result;
         } else {
             ret = {
-                code: -1,
+                code: jserrorcode,
                 status: 'error',
                 message: `HTTP error! status: ${response.status}`,
                 error: `HTTP error! status: ${response.status}`,
@@ -76,13 +90,14 @@ async function jspost_plain(url, data, headers = { 'Content-Type': 'application/
         }
     } catch (error) {
         ret = {
-            code: -1,
+            code: jserrorcode,
             status: 'error',
             message: 'Error',
             data: JSON.stringify(data),
             error: error.message || error,
             allerror: error
         };
+        console.error(ret);
     }
 
     return ret;
@@ -100,29 +115,40 @@ async function jsget(url, headers = { 'Content-Type': 'application/json' }) {
         if (response.ok) {
             const result = await response.json();
             ret = {
-                code: 200,
+                code: jssuccesscode,
+                backendcode: result.code || 0,
                 status: 'ok',
-                message: 'Okay',
-                data: result,
+                message: result.message || 'Okay',
+                data: result.data || [],
                 result: result,
                 backend: result,
+                headers: headers,
+                url: url
             };
         } else {
             ret = {
-                code: -1,
+                code: jserrorcode,
+                backendcode: 404,
                 status: 'error',
                 message: `HTTP error! status: ${response.status}`,
                 error: `HTTP error! status: ${response.status}`,
+                headers: headers,
+                url: url
             };
-            console.error(`HTTP error! status: ${response.status}`);
+            console.error(ret);
         }
     } catch (error) {
         ret = {
-            code: -1,
+            code: jserrorcode,
+            backendcode: 404,
             status: 'error',
-            message: 'Error',
+            allerror: error,
+            message: error.message || error,
             error: error.message || error,
+            headers: headers,
+            url: url
         };
+        console.error(ret);
     }
 
     return ret;
@@ -142,7 +168,7 @@ async function jsget_plain(url, headers = { 'Content-Type': 'application/json' }
             ret = result;
         } else {
             ret = {
-                code: -1,
+                code: jserrorcode,
                 status: 'error',
                 message: `HTTP error! status: ${response.status}`,
                 error: `HTTP error! status: ${response.status}`,
@@ -151,11 +177,12 @@ async function jsget_plain(url, headers = { 'Content-Type': 'application/json' }
         }
     } catch (error) {
         ret = {
-            code: -1,
+            code: jserrorcode,
             status: 'error',
             message: 'Error',
             error: error.message || error,
         };
+        console.error(ret);
     }
 
     return ret;
@@ -176,29 +203,43 @@ async function jsput(url, data, where = {}, headers = { 'Content-Type': 'applica
         if (response.ok) {
             const result = await response.json();
             ret = {
-                code: 200,
+                code: jssuccesscode,
+                backendcode: result.code || 0,
                 status: 'ok',
-                message: 'Okay',
-                data: result,
+                message: result.message || 'Okay',
+                data: result.data || [],
                 result: result,
-                backend: result
+                backend: result,
+                body: data,
+                headers: headers,
+                url: url
             };
         } else {
             ret = {
-                code: -1,
+                code: jserrorcode,
+                backendcode: 404,
                 status: 'error',
                 message: `HTTP error! status: ${response.status}`,
                 error: `HTTP error! status: ${response.status}`,
+                body: data,
+                headers: headers,
+                url: url
             };
-            console.error(`HTTP error! status: ${response.status}`);
+            console.error(ret);
         }
     } catch (error) {
         ret = {
-            code: -1,
+            code: jserrorcode,
+            backendcode: 404,
             status: 'error',
-            message: 'Error',
+            allerror: error,
+            message: error.message || 'Error',
             error: error.message || error,
+            body: data,
+            headers: headers,
+            url: url
         };
+        console.error(ret);
     }
 
     return ret;
@@ -221,7 +262,7 @@ async function jsput_plain(url, data, where = {}, headers = { 'Content-Type': 'a
             ret = result;
         } else {
             ret = {
-                code: -1,
+                code: jserrorcode,
                 status: 'error',
                 message: `HTTP error! status: ${response.status}`,
                 error: `HTTP error! status: ${response.status}`,
@@ -230,11 +271,12 @@ async function jsput_plain(url, data, where = {}, headers = { 'Content-Type': 'a
         }
     } catch (error) {
         ret = {
-            code: -1,
+            code: jserrorcode,
             status: 'error',
             message: 'Error',
             error: error.message || error,
         };
+        console.error(ret);
     }
 
     return ret;
@@ -252,6 +294,7 @@ function get_form_data(id){
 
     return dataObject; 
 }
+
 
 function on_submit(id, callable) {
     const form = document.getElementById(id);
@@ -308,6 +351,10 @@ function direct_get(url, data = null, headers = { 'Content-Type': 'application/j
 
 
 function window_loaded(callable){
+    window.addEventListener("load", callable());
+}
+
+function on_load(callable){
     window.addEventListener("load", callable());
 }
 
@@ -383,8 +430,7 @@ function get_form_values(id){
     return get_form_data(id)
 }
 
-
-function get_value(name, by="name"){
+function get_value(name, by="id"){
     let element = null;
     if(by=="name"){
        element = document.getElementsByName(name);
@@ -430,6 +476,13 @@ function js_toarray(string){
     return JSON.parse(string);
 }
 
+function json_stringfy(array){
+    return js_tostring(array);
+}
+
+function json_parse(string){
+    return js_toarray(string);
+}
 
 function set_html(id, strhtml){
     const dive = document.getElementById(id);
@@ -449,7 +502,229 @@ function js_href(url, target="this"){
     }
 }
 
+function js_selector(selector){
+    return document.querySelector(selector);
+}
 
+function js_selector_all(selector){
+const elements = document.querySelectorAll(selector);
+return elements;
+}
+
+function get_selector_value(selector){
+    return document.querySelector(selector).value;
+}
+
+function js_timer(timer, callable){
+    setTimeout(callable, timer);
+}
+
+function js_interval(timmer, callable){
+    setInterval(callable, timmer);
+}
+function set_session(key, value){
+    sessionStorage.setItem(key,value);
+}
+
+function get_session(key){
+    return sessionStorage.getItem(key);
+}
+
+function remove_session(key){
+    sessionStorage.removeItem(key);
+}
+
+function clear_session(){
+    sessionStorage.clear();
+}
+
+const jsform_validate = (formData, rules) => { // usage: rules = {"fname==Firstname": "required"}
+    const errors = {};
+
+    for (const [key, validation] of Object.entries(rules)) {
+        let fieldName, label;
+
+        if (key.includes("==")) {
+            [fieldName, label] = key.split("==");
+            label = label || fieldName;
+        } else {
+            fieldName = key;
+            label = fieldName;
+        }
+
+        const value = formData.get(fieldName) || ""; 
+        const fieldRules = validation.split("|"); 
+
+        for (const rule of fieldRules) {
+            const [ruleName, ruleParam] = rule.includes(":") ? rule.split(":") : [rule, null];
+
+            switch (ruleName) {
+                case "required":
+                    if (!value.trim()) {
+                        errors[fieldName] = `${label} is required.`;
+                        break;
+                    }
+                    break;
+
+                case "number":
+                case "numeric":
+                    if (isNaN(value)) {
+                        errors[fieldName] = `${label} should be a number.`;
+                        break;
+                    }
+                    break;
+
+                case "alphabet":
+                    if (!/^[a-zA-Z]+$/.test(value)) {
+                        errors[fieldName] = `${label} should contain only alphabets.`;
+                        break;
+                    }
+                    break;
+
+                case "modern-password":
+                    if (!/(?=.*[a-zA-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}/.test(value)) {
+                        errors[fieldName] = `${label} should contain letters, numbers, and symbols.`;
+                        break;
+                    }
+                    break;
+
+                case "max":
+                    if (Number(value) > Number(ruleParam)) {
+                        errors[fieldName] = `${label} should not exceed ${ruleParam}.`;
+                        break;
+                    }
+                    break;
+
+                case "min":
+                    if (Number(value) < Number(ruleParam)) {
+                        errors[fieldName] = `${label} should not be less than ${ruleParam}.`;
+                        break;
+                    }
+                    break;
+
+                case "size":
+                    if (value.length !== Number(ruleParam)) {
+                        errors[fieldName] = `${label} should have exactly ${ruleParam} character(s).`;
+                        break;
+                    }
+                    break;
+
+                case "length":
+                    if (value.length > Number(ruleParam)) {
+                        errors[fieldName] = `${label} should not exceed ${ruleParam} characters.`;
+                        break;
+                    }
+                    break;
+
+                default:
+                    break;
+            }
+
+            if (errors[fieldName]) break; 
+        }
+    }
+
+    return errors;
+};
+
+function jsinput_to_base64(selector){
+    return new Promise((resolve, reject) => {
+        const fileInput = document.querySelector(selector);
+
+        if (fileInput.files.length === 0) {
+            reject('No file selected.');
+            return;
+        }
+
+        const file = fileInput.files[0];
+        const reader = new FileReader();
+
+        reader.onload = function (e) {
+            const base64Encoded = e.target.result.split(',')[1];
+            const mimeType = file.type; 
+            const fullDataUrl = `data:${mimeType};base64,${base64Encoded}`; 
+            resolve(fullDataUrl); 
+        };
+        reader.onerror = function () {
+            reject('Error reading the file.');
+        };
+
+        reader.readAsDataURL(file);
+    });
+}
+
+
+
+async function jsfile_to_base64(filePath) {
+    try {
+        const response = await fetch(filePath); 
+        const blob = await response.blob(); 
+        return new Promise((resolve, reject) => {
+            const reader = new FileReader();
+            reader.onload = () => resolve(reader.result); 
+            reader.onerror = reject; 
+            reader.readAsDataURL(blob);
+        });
+    } catch (error) {
+        console.error('Error fetching the file:', error);
+        throw error;
+    }
+}
+
+
+function jsdownload_base64(base64Data, fileName) {
+    const [mimeTypePart, base64Content] = base64Data.split(',');
+    const mimeType = mimeTypePart.match(/:(.*?);/)[1]; 
+
+    const mimeToExtension = {
+        "image/png": "png",
+        "image/jpeg": "jpg",
+        "image/gif": "gif",
+        "text/plain": "txt",
+        "application/pdf": "pdf",
+        "application/msword": "doc",
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document": "docx",
+        "application/vnd.ms-excel": "xls",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": "xlsx",
+        "application/vnd.ms-powerpoint": "ppt",
+        "application/vnd.openxmlformats-officedocument.presentationml.presentation": "pptx",
+        "audio/mpeg": "mp3",
+        "video/mp4": "mp4",
+        "application/zip": "zip",
+        "application/x-rar-compressed": "rar"
+    };
+
+    const extension = mimeToExtension[mimeType] || "bin"; 
+
+    if (!fileName.includes('.')) {
+        fileName = `${fileName}.${extension}`;
+    }
+
+    const binaryString = atob(base64Content);
+    const binaryLength = binaryString.length;
+    const bytes = new Uint8Array(binaryLength);
+    for (let i = 0; i < binaryLength; i++) {
+        bytes[i] = binaryString.charCodeAt(i);
+    }
+
+    const blob = new Blob([bytes], { type: mimeType });
+
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = fileName; 
+    document.body.appendChild(link); 
+    link.click(); 
+    document.body.removeChild(link); 
+}
+
+
+function jsimg_base64(imgselector, base64){
+    document.querySelector(imgselector).src = base64;
+}
+
+function jsscroll(selector, attr){
+    document.querySelectorAll(selector).scrollTo(attr);
+}
 
 
 
