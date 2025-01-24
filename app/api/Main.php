@@ -15,6 +15,15 @@
             json_response($data);
         }
 
+        public function login(){
+            $data = json_decode(file_get_contents('php://input'), true);
+            $email = $data['email'];
+            $password = $data['password'];
+            $result = db_set_query("select * from register where email = ? and password = ?", [$email, $password]);
+
+            json_response(["code"=>200, "message"=> "Success", "data"=>$result, "success"=>$result['has_data']]);
+        }
+
 
 
 
