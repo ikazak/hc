@@ -47,32 +47,19 @@
                             <div class="card-body">
                                 <div class="table-responsive">
                                     
-                                    <table id="example" class="display" style="min-width: 845px">
+                                    <table id="appointmenttbl" class="display" style="min-width: 845px">
                                     <thead>
-            <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Date</th>
-                <th>Services</th>
-                <th>Status</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>John Doe</td>
-                <td>11/2/2025</td>
-                <td>Immunazation</td>
-                <td><b>Approved</b></td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Jane Smith</td>
-                <td>12/25/2024</td>
-                <td>Prenatal</td>
-                <td><b>Approved</b></td>
-            </tr>
-        </tbody>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Name</th>
+                                        <th>Date</th>
+                                        <th>Services</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    
+                                </tbody>
                                         
                                     </table>
                                 </div>
@@ -103,3 +90,36 @@
             background-color: #f2f2f2;
         }
     </style>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+
+
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+<?= jspost_script()?>
+<script>
+    window_loaded(async()=>{
+        let datatable = $("#appointmenttbl").DataTable();
+        let resolt= await direct_get("/Crud/appointmenthistory");
+        let data = resolt.backend.data;
+        
+        log(data);
+        data.forEach(column => {
+            let status = column.Status;
+            let stat = ``;
+          
+            if(status == "Completed"){
+                datatable.row.add([
+                column.appointmentID || "1",
+                column.fullname || "1",
+                column.Date || "1",
+                column.ServicesType || "1",
+                 "Completed"
+            ]).draw();
+            }
+        });
+    });
+</script>

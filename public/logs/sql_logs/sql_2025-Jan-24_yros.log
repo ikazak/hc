@@ -1,0 +1,113 @@
+[2025-01-24 09:13:05] SELECT * FROM hc_resident 
+[2025-01-24 09:13:05] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-24 09:13:06] SELECT * FROM hc_medicineinventory 
+[2025-01-24 09:13:07] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-24 09:13:08] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-24 09:13:51] INSERT INTO patient (first_name, surname, bday, age, contact, civil_status, occupation, religion, sex, home_address) VALUES ('tyrone', 'surname', '2025-01-03', '22', '0912312937', 's', 's', 's', 's', 's')
+[2025-01-24 09:13:51] INSERT INTO immunization_application (patientID, scheduleID, applicationDate, Status, servicesID, immunizationID) VALUES ('48', '1', '2025-01-24', 'pending', '1', '2')
+[2025-01-24 09:13:51] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' 2 C:\xampp\htdocs\hc\_php\controller\Form.php(39): db_insert('immunization_ap...', Array)
+
+6 {main}
+[2025-01-24 09:13:51] INSERT INTO prenatalschedule (patientID, Date, applicationDate, Status, servicesID) VALUES ('48', '2025-01-24', '2025-01-24', 'pending', '1')
+[2025-01-24 09:13:51] INSERT INTO family_planning (patientID, Date, Facility, ServicesProvided, applicationDate, Status, servicesID) VALUES ('48', '2025-01-16', 'Libacao health center', 'FP counselling', '2025-01-24', 'pending', '1')
+[2025-01-24 09:13:52] INSERT INTO patient (first_name, surname, bday, age, contact, civil_status, occupation, religion, sex, home_address) VALUES ('tyrone', 'surname', '2025-01-03', '22', '0912312937', 's', 's', 's', 's', 's')
+[2025-01-24 09:13:52] INSERT INTO immunization_application (patientID, scheduleID, applicationDate, Status, servicesID, immunizationID) VALUES ('49', '1', '2025-01-24', 'pending', '1', '2')
+[2025-01-24 09:13:52] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' 2 C:\xampp\htdocs\hc\_php\controller\Form.php(39): db_insert('immunization_ap...', Array)
+
+6 {main}
+[2025-01-24 09:13:52] INSERT INTO prenatalschedule (patientID, Date, applicationDate, Status, servicesID) VALUES ('49', '2025-01-24', '2025-01-24', 'pending', '1')
+[2025-01-24 09:13:52] INSERT INTO family_planning (patientID, Date, Facility, ServicesProvided, applicationDate, Status, servicesID) VALUES ('49', '2025-01-16', 'Libacao health center', 'FP counselling', '2025-01-24', 'pending', '1')
+[2025-01-24 09:13:58] INSERT INTO patient (first_name, surname, bday, age, contact, civil_status, occupation, religion, sex, home_address) VALUES ('tyrone', 'surname', '2025-01-03', '22', '0912312937', 's', 's', 's', 's', 's')
+[2025-01-24 09:13:58] INSERT INTO immunization_application (patientID, scheduleID, applicationDate, Status, servicesID, immunizationID) VALUES ('50', '1', '2025-01-24', 'pending', '1', '2')
+[2025-01-24 09:13:58] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' 2 C:\xampp\htdocs\hc\_php\controller\Form.php(39): db_insert('immunization_ap...', Array)
+
+6 {main}
+[2025-01-24 09:13:58] INSERT INTO prenatalschedule (patientID, Date, applicationDate, Status, servicesID) VALUES ('50', '2025-01-24', '2025-01-24', 'pending', '1')
+[2025-01-24 09:13:58] INSERT INTO family_planning (patientID, Date, Facility, ServicesProvided, applicationDate, Status, servicesID) VALUES ('50', '2025-01-16', 'Libacao health center', 'FP counselling', '2025-01-24', 'pending', '1')
+[2025-01-24 09:14:46] INSERT INTO patient (first_name, surname, bday, age, contact, civil_status, occupation, religion, sex, home_address) VALUES ('tyrone', 'surname', '2025-01-03', '22', '0912312937', 's', 's', 's', 's', 's')
+[2025-01-24 09:14:46] INSERT INTO immunization_application (patientID, scheduleID, applicationDate, Status, servicesID, immunizationID) VALUES ('51', '1', '2025-01-24', 'pending', '1', '2')
+[2025-01-24 09:14:46] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' 2 C:\xampp\htdocs\hc\_php\controller\Form.php(39): db_insert('immunization_ap...', Array)
+
+6 {main}
+[2025-01-24 09:14:46] INSERT INTO prenatalschedule (patientID, Date, applicationDate, Status, servicesID) VALUES ('51', '2025-01-24', '2025-01-24', 'pending', '1')
+[2025-01-24 09:14:46] INSERT INTO family_planning (patientID, Date, Facility, ServicesProvided, applicationDate, Status, servicesID) VALUES ('51', '2025-01-16', 'Libacao health center', 'FP counselling', '2025-01-24', 'pending', '1')
+[2025-01-24 09:15:29] INSERT INTO patient (first_name, surname, bday, age, contact, civil_status, occupation, religion, sex, home_address) VALUES ('tyrone', 'surname', '2025-01-03', '22', '0912312937', 's', 's', 's', 's', 's')
+[2025-01-24 09:15:29] INSERT INTO immunization_application (patientID, scheduleID, applicationDate, Status, servicesID, immunizationID) VALUES ('52', '1', '2025-01-24', 'pending', '1', '2')
+[2025-01-24 09:15:29] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' 2 C:\xampp\htdocs\hc\_php\controller\Form.php(39): db_insert('immunization_ap...', Array)
+
+6 {main}
+[2025-01-24 09:15:29] INSERT INTO prenatalschedule (patientID, Date, applicationDate, Status, servicesID) VALUES ('52', '2025-01-24', '2025-01-24', 'pending', '1')
+[2025-01-24 09:15:29] INSERT INTO family_planning (patientID, Date, Facility, ServicesProvided, applicationDate, Status, servicesID) VALUES ('52', '2025-01-16', 'Libacao health center', 'FP counselling', '2025-01-24', 'pending', '1')
+[2025-01-24 09:20:54] INSERT INTO patient (first_name, surname, bday, age, contact, civil_status, occupation, religion, sex, home_address) VALUES ('tyrone', 'surname', '2025-01-03', '22', '0912312937', 's', 's', 's', 's', 's')
+[2025-01-24 09:20:54] INSERT INTO immunization_application (patientID, scheduleID, applicationDate, Status, servicesID, immunizationID) VALUES ('53', '1', '2025-01-24', 'pending', '1', '2')
+[2025-01-24 09:20:54] INSERT INTO prenatalschedule (patientID, Date, applicationDate, Status, servicesID) VALUES ('53', '2025-01-24', '2025-01-24', 'pending', '1')
+[2025-01-24 09:20:54] INSERT INTO family_planning (patientID, Date, Facility, ServicesProvided, applicationDate, Status, servicesID) VALUES ('53', '2025-01-16', 'Libacao health center', 'FP counselling', '2025-01-24', 'pending', '1')
+[2025-01-24 09:23:32] <<=== YROS:: db tracker started ===>>
+[2025-01-24 09:23:32] INSERT INTO patient (first_name, surname, bday, age, contact, civil_status, occupation, religion, sex, home_address) VALUES ('tyrone', 'surname', '2025-01-03', '22', '0912312937', 's', 's', 's', 's', 's')
+[2025-01-24 09:23:32] INSERT INTO immunization_application (patientID, scheduleID, applicationDate, Status, servicesID, immunizationID) VALUES ('54', '1', '2025-01-24', 'pending', '1', '2')
+[2025-01-24 09:23:32] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 'PRIMARY' 2 C:\xampp\htdocs\hc\_php\controller\Form.php(40): db_insert('immunization_ap...', Array)
+
+6 {main}
+[2025-01-24 09:23:32] INSERT INTO prenatalschedule (patientID, Date, applicationDate, Status, servicesID) VALUES ('54', '2025-01-24', '2025-01-24', 'pending', '1')
+[2025-01-24 09:23:32] INSERT INTO family_plannings (patientID, Date, Facility, ServicesProvided, applicationDate, Status, servicesID) VALUES ('54', '2025-01-16', 'Libacao health center', 'FP counselling', '2025-01-24', 'pending', '1')
+[2025-01-24 09:23:32] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'healthcare.family_plannings' doesn't exist 2 C:\xampp\htdocs\hc\_php\controller\Form.php(65): db_insert('family_planning...', Array)
+
+6 {main}
+[2025-01-24 09:23:32] <<=== YROS:: db_tracker failed : sql rollback ===>>
+[2025-01-24 09:24:30] <<=== YROS:: db tracker started ===>>
+[2025-01-24 09:24:30] INSERT INTO patient (first_name, surname, bday, age, contact, civil_status, occupation, religion, sex, home_address) VALUES ('tyrone', 'surname', '2025-01-03', '22', '0912312937', 's', 's', 's', 's', 's')
+[2025-01-24 09:24:30] INSERT INTO immunization_application (patientID, scheduleID, applicationDate, Status, servicesID, immunizationID) VALUES ('55', '1', '2025-01-24', 'pending', '1', '2')
+[2025-01-24 09:24:30] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 'PRIMARY' 2 C:\xampp\htdocs\hc\_php\controller\Form.php(40): db_insert('immunization_ap...', Array)
+
+6 {main}
+[2025-01-24 09:24:30] INSERT INTO prenatalschedule (patientID, Date, applicationDate, Status, servicesID) VALUES ('55', '2025-01-24', '2025-01-24', 'pending', '1')
+[2025-01-24 09:24:30] INSERT INTO family_planning (patientID, Date, Facility, ServicesProvided, applicationDate, Status, servicesID) VALUES ('55', '2025-01-16', 'Libacao health center', 'FP counselling', '2025-01-24', 'pending', '1')
+[2025-01-24 09:24:30] <<=== YROS:: db_tracker failed : sql rollback ===>>
+[2025-01-24 09:25:11] <<=== YROS:: db tracker started ===>>
+[2025-01-24 09:25:11] INSERT INTO patient (first_name, surname, bday, age, contact, civil_status, occupation, religion, sex, home_address) VALUES ('tyrone', 'surname', '2025-01-03', '22', '0912312937', 's', 's', 's', 's', 's')
+[2025-01-24 09:25:11] INSERT INTO immunization_application (patientID, scheduleID, applicationDate, Status, servicesID, immunizationID) VALUES ('56', '1', '2025-01-24', 'pending', '1', '2')
+[2025-01-24 09:25:11] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 'PRIMARY' 2 C:\xampp\htdocs\hc\_php\controller\Form.php(40): db_insert('immunization_ap...', Array)
+
+6 {main}
+[2025-01-24 09:25:11] INSERT INTO prenatalschedule (patientID, Date, applicationDate, Status, servicesID) VALUES ('56', '2025-01-24', '2025-01-24', 'pending', '1')
+[2025-01-24 09:25:11] INSERT INTO family_planning (patientID, Date, Facility, ServicesProvided, applicationDate, Status, servicesID) VALUES ('56', '2025-01-16', 'Libacao health center', 'FP counselling', '2025-01-24', 'pending', '1')
+[2025-01-24 09:25:11] <<=== YROS:: db_tracker failed : sql rollback ===>>
+[2025-01-24 09:25:24] INSERT INTO patient (first_name, surname, bday, age, contact, civil_status, occupation, religion, sex, home_address) VALUES ('tyrone', 'surname', '2025-01-03', '22', '0912312937', 's', 's', 's', 's', 's')
+[2025-01-24 09:25:24] INSERT INTO immunization_application (patientID, scheduleID, applicationDate, Status, servicesID, immunizationID) VALUES ('57', '1', '2025-01-24', 'pending', '1', '2')
+[2025-01-24 09:25:24] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 'PRIMARY' 2 C:\xampp\htdocs\hc\_php\controller\Form.php(40): db_insert('immunization_ap...', Array)
+
+6 {main}
+[2025-01-24 09:25:24] INSERT INTO prenatalschedule (patientID, Date, applicationDate, Status, servicesID) VALUES ('57', '2025-01-24', '2025-01-24', 'pending', '1')
+[2025-01-24 09:25:24] INSERT INTO family_planning (patientID, Date, Facility, ServicesProvided, applicationDate, Status, servicesID) VALUES ('57', '2025-01-16', 'Libacao health center', 'FP counselling', '2025-01-24', 'pending', '1')
+[2025-01-24 09:26:14] INSERT INTO patient (first_name, surname, bday, age, contact, civil_status, occupation, religion, sex, home_address) VALUES ('tyrone', 'surname', '2025-01-03', '22', '0912312937', 's', 's', 's', 's', 's')
+[2025-01-24 09:26:14] INSERT INTO immunization_application (patientID, scheduleID, applicationDate, Status, servicesID, immunizationID) VALUES ('58', '1', '2025-01-24', 'pending', '1', '2')
+[2025-01-24 09:26:14] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 'PRIMARY' 2 C:\xampp\htdocs\hc\_php\controller\Form.php(40): db_insert('immunization_ap...', Array)
+
+6 {main}
+[2025-01-24 09:26:14] INSERT INTO prenatalschedule (patientID, Date, applicationDate, Status, servicesID) VALUES ('58', '2025-01-24', '2025-01-24', 'pending', '1')
+[2025-01-24 09:26:14] INSERT INTO family_planning (patientID, Date, Facility, ServicesProvided, applicationDate, Status, servicesID) VALUES ('58', '2025-01-16', 'Libacao health center', 'FP counselling', '2025-01-24', 'pending', '1')
+[2025-01-24 09:26:52] INSERT INTO patient (first_name, surname, bday, age, contact, civil_status, occupation, religion, sex, home_address) VALUES ('tyrone', 'surname', '2025-01-03', '22', '0912312937', 's', 's', 's', 's', 's')
+[2025-01-24 09:26:52] INSERT INTO immunization_application (patientID, scheduleID, applicationDate, Status, servicesID) VALUES ('59', '1', '2025-01-24', 'pending', '1')
+[2025-01-24 09:26:52] INSERT INTO prenatalschedule (patientID, Date, applicationDate, Status, servicesID) VALUES ('59', '2025-01-24', '2025-01-24', 'pending', '1')
+[2025-01-24 09:26:52] INSERT INTO family_planning (patientID, Date, Facility, ServicesProvided, applicationDate, Status, servicesID) VALUES ('59', '2025-01-16', 'Libacao health center', 'FP counselling', '2025-01-24', 'pending', '1')
+[2025-01-24 09:30:45] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-24 09:31:07] <<=== YROS:: db tracker started ===>>
+[2025-01-24 09:31:07] INSERT INTO patient (first_name, surname, bday, age, contact, civil_status, occupation, religion, sex, home_address) VALUES ('tyrone', 'surname', '2025-01-08', '25', '093482663524', 's', 's', 's', 's', 'Purok 2 Libacao Himamaylan City Negros Occidental')
+[2025-01-24 09:31:07] INSERT INTO immunization_application (patientID, scheduleID, applicationDate, Status, servicesID) VALUES ('60', '1', '2025-01-24', 'pending', '1')
+[2025-01-24 09:31:07] INSERT INTO prenatalschedule (patientID, Date, applicationDate, Status, servicesID) VALUES ('60', '2025-01-24', '2025-01-24', 'pending', '1')
+[2025-01-24 09:31:07] <<=== YROS:: db_tracker_success : sql queries submitted ===>>
+[2025-01-24 09:31:07] INSERT INTO family_planning (patientID, Date, Facility, ServicesProvided, applicationDate, Status, servicesID) VALUES ('60', '2025-01-24', '', '', '2025-01-24', 'pending', '1')
+[2025-01-24 09:31:07] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Facility' cannot be null 2 C:\xampp\htdocs\hc\_php\controller\Form.php(64): db_insert('family_planning', Array)
+
+6 {main}
+[2025-01-24 09:31:38] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-24 09:32:04] <<=== YROS:: db tracker started ===>>
+[2025-01-24 09:32:04] INSERT INTO patient (first_name, surname, bday, age, contact, civil_status, occupation, religion, sex, home_address) VALUES ('tyrone', 'surname', '2025-01-24', '25', '09348266352', 's', 's', 's', 'm', 'Purok 2 Libacao Himamaylan City Negros Occidental')
+[2025-01-24 09:32:04] INSERT INTO immunization_application (patientID, scheduleID, applicationDate, Status, servicesID) VALUES ('61', '1', '2025-01-24', 'pending', '1')
+[2025-01-24 09:32:04] INSERT INTO prenatalschedule (patientID, Date, applicationDate, Status, servicesID) VALUES ('61', '2025-01-24', '2025-01-24', 'pending', '1')
+[2025-01-24 09:32:04] <<=== YROS:: db_tracker_success : sql queries submitted ===>>
+[2025-01-24 09:32:04] INSERT INTO family_planning (patientID, Date, Facility, ServicesProvided, applicationDate, Status, servicesID) VALUES ('61', '2025-01-24', '', '', '2025-01-24', 'pending', '1')
+[2025-01-24 09:32:04] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Facility' cannot be null 2 C:\xampp\htdocs\hc\_php\controller\Form.php(64): db_insert('family_planning', Array)
+
+6 {main}
+[2025-01-24 09:32:06] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";

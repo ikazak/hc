@@ -1,0 +1,479 @@
+[2025-01-25 04:13:20] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:13:20] select count(*) as 'count' from patient
+[2025-01-25 04:13:20] select count(*) as 'count' from hc_medicineinventory
+[2025-01-25 04:13:20] select count(*) as 'count' from appointment
+[2025-01-25 04:13:20] select count(*) as 'count' from request where status = 'pending'
+[2025-01-25 04:13:25] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:17:11] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:17:42] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:18:30] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:18:49] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:19:14] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:19:32] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:19:45] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:20:21] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:20:31] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:20:53] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:21:06] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:21:18] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:22:21] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:22:26] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:22:35] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:23:01] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:23:09] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:24:48] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:26:06] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:27:16] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:28:42] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:28:49] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:29:00] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:29:24] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:29:27] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:29:27] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 04:31:43] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:31:43] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 04:32:45] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:32:45] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 04:35:38] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:35:38] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 04:35:54] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:36:07] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:36:07] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 04:37:03] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:37:03] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 04:37:16] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:37:16] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 04:38:02] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:38:03] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 04:38:25] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:38:25] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 04:38:33] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:38:34] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 04:38:54] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:38:54] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 04:39:16] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:39:16] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 04:39:18] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:39:19] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 04:40:21] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:40:21] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 04:42:08] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:42:08] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 04:43:41] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:43:41] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 04:44:00] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:44:00] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 04:44:11] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:44:11] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 04:44:16] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:44:16] select count(*) as 'count' from patient
+[2025-01-25 04:44:16] select count(*) as 'count' from hc_medicineinventory
+[2025-01-25 04:44:16] select count(*) as 'count' from appointment
+[2025-01-25 04:44:16] select count(*) as 'count' from request where status = 'pending'
+[2025-01-25 04:44:17] SELECT * FROM hc_resident 
+[2025-01-25 04:44:17] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:44:49] SELECT * FROM hc_resident 
+[2025-01-25 04:44:49] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:46:07] SELECT * FROM patient 
+[2025-01-25 04:46:07] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:50:32] SELECT * FROM patient 
+[2025-01-25 04:50:32] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:57:04] SELECT * FROM patient 
+[2025-01-25 04:57:05] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:57:35] SELECT * FROM patient 
+[2025-01-25 04:57:35] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:59:01] SELECT * FROM patient 
+[2025-01-25 04:59:01] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 04:59:10] SELECT * FROM patient 
+[2025-01-25 04:59:10] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:02:06] SELECT * FROM patient 
+[2025-01-25 05:02:06] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:02:16] SELECT * FROM patient 
+[2025-01-25 05:02:16] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:02:59] SELECT * FROM hc_resident 
+[2025-01-25 05:02:59] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:03:23] SELECT * FROM patient 
+[2025-01-25 05:03:23] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:06:21] SELECT * FROM patient 
+[2025-01-25 05:06:22] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:08:07] SELECT * FROM patient 
+[2025-01-25 05:08:07] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:08:25] SELECT * FROM patient 
+[2025-01-25 05:08:25] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:08:43] SELECT * FROM patient 
+[2025-01-25 05:08:43] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:08:53] SELECT * FROM patient 
+[2025-01-25 05:08:53] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:09:27] SELECT * FROM patient 
+[2025-01-25 05:09:27] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:09:40] SELECT * FROM patient 
+[2025-01-25 05:09:41] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:10:19] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:10:21] SELECT * FROM hc_medicineinventory 
+[2025-01-25 05:10:21] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:10:22] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:10:22] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 05:10:25] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:22:36] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:22:38] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:22:38] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 05:22:39] SELECT * FROM hc_medicineinventory 
+[2025-01-25 05:22:40] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:22:43] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:22:43] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 05:22:45] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:23:21] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:23:21] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 05:23:30] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:23:44] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:43:29] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:43:29] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 05:43:37] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:49:55] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:52:14] SELECT * FROM hc_medicineinventory 
+[2025-01-25 05:52:14] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:52:15] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 05:52:15] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 06:07:00] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:07:00] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 06:07:20] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:09:10] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:10:32] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:11:19] <<=== YROS:: db tracker started ===>>
+[2025-01-25 06:11:19] INSERT INTO patient (first_name, surname, bday, age, contact, civil_status, occupation, religion, sex, home_address) VALUES ('ray'surname'', '2025-01-28', '21', '09348266352', 's', 's', 's', 'm', 'Purok 2 Libacao Himamaylan City Negros Occidental', ?)
+[2025-01-25 06:11:19] INSERT INTO immunization_application (patientID, scheduleID, applicationDate, Status, servicesID) VALUES ('62', '1', '2025-01-25', 'pending', '2')
+[2025-01-25 06:11:19] INSERT INTO prenatalschedule (patientID, Date, applicationDate, Status, servicesID) VALUES ('62', '2025-02-08', '2025-01-25', 'pending', '2')
+[2025-01-25 06:11:19] <<=== YROS:: db_tracker_success : sql queries submitted ===>>
+[2025-01-25 06:11:19] INSERT INTO family_planning (patientID, Date, Facility, ServicesProvided, applicationDate, Status, servicesID) VALUES ('62', '2025-01-25', '', '', '2025-01-25', 'pending', '2')
+[2025-01-25 06:11:19] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Facility' cannot be null 2 C:\xampp\htdocs\hc\_php\controller\Form.php(67): db_insert('family_planning', Array)
+
+6 {main}
+[2025-01-25 06:11:19] INSERT INTO appointment (patientID, scheduleID, servicesID, applicationDate, Status) VALUES ('62', '1', '2', '2025-01-25', 'completed')
+[2025-01-25 06:11:22] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:11:25] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:11:25] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 06:14:27] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:14:54] <<=== YROS:: db tracker started ===>>
+[2025-01-25 06:14:54] INSERT INTO patient (first_name, surname, bday, age, contact, civil_status, occupation, religion, sex, home_address) VALUES ('tyrone', 'surname', '2025-01-22', '21', '09348266352', 's', 's', 's', 's', 'Purok 2 Libacao Himamaylan City Negros Occidental')
+[2025-01-25 06:14:54] INSERT INTO immunization_application (patientID, scheduleID, applicationDate, Status, servicesID) VALUES ('63', '1', '2025-01-25', 'pending', '1')
+[2025-01-25 06:14:54] INSERT INTO prenatalschedule (patientID, Date, applicationDate, Status, servicesID) VALUES ('63', '2025-01-25', '2025-01-25', 'pending', '1')
+[2025-01-25 06:14:54] <<=== YROS:: db_tracker_success : sql queries submitted ===>>
+[2025-01-25 06:14:54] INSERT INTO family_planning (patientID, Date, Facility, ServicesProvided, applicationDate, Status, servicesID) VALUES ('63', '2025-01-25', '', '', '2025-01-25', 'pending', '1')
+[2025-01-25 06:14:54] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Facility' cannot be null 2 C:\xampp\htdocs\hc\_php\controller\Form.php(67): db_insert('family_planning', Array)
+
+6 {main}
+[2025-01-25 06:14:54] INSERT INTO appointment (patientID, scheduleID, servicesID, applicationDate, Status) VALUES ('63', '1', '1', '2025-01-25', 'completed')
+[2025-01-25 06:14:56] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:17:02] <<=== YROS:: db tracker started ===>>
+[2025-01-25 06:17:02] INSERT INTO patient (first_name, surname, bday, age, contact, civil_status, occupation, religion, sex, home_address) VALUES ('tyrone', 'surname', '2025-01-01', '4', '0921938173', 's', 's', 's', 'm', 'Purok 2 Libacao Himamaylan City Negros Occidental')
+[2025-01-25 06:17:02] INSERT INTO immunization_application (patientID, scheduleID, applicationDate, Status, servicesID) VALUES ('64', '1', '2025-01-25', 'pending', '4')
+[2025-01-25 06:17:02] INSERT INTO prenatalschedule (patientID, Date, applicationDate, Status, servicesID) VALUES ('64', '2025-01-25', '2025-01-25', 'pending', '4')
+[2025-01-25 06:17:02] <<=== YROS:: db_tracker_success : sql queries submitted ===>>
+[2025-01-25 06:17:02] INSERT INTO family_planning (patientID, Date, Facility, ServicesProvided, applicationDate, Status, servicesID) VALUES ('64', '2025-02-04', 'Libacao health center', 'Method used / FP', '2025-01-25', 'pending', '4')
+[2025-01-25 06:17:02] INSERT INTO appointment (patientID, scheduleID, servicesID, applicationDate, Status) VALUES ('64', '1', '4', '2025-01-25', 'completed')
+[2025-01-25 06:17:04] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:24:23] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:24:23] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 06:24:28] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:24:37] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:24:42] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:24:54] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:24:54] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 06:24:59] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:28:55] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:29:38] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:29:54] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:30:41] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:31:16] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:31:31] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:32:00] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:32:01] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:32:01] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 06:32:03] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:32:03] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 06:32:08] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:32:30] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:36:40] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:38:01] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:38:02] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:38:59] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:38:59] select count(*) as 'count' from patient
+[2025-01-25 06:38:59] select count(*) as 'count' from hc_medicineinventory
+[2025-01-25 06:38:59] select count(*) as 'count' from appointment
+[2025-01-25 06:39:00] select count(*) as 'count' from request where status = 'pending'
+[2025-01-25 06:39:02] SELECT * FROM patient 
+[2025-01-25 06:39:02] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:39:05] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:39:07] SELECT * FROM hc_medicineinventory 
+[2025-01-25 06:39:07] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:39:10] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:39:10] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 06:39:14] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:39:18] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:39:18] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 06:43:09] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:43:27] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:43:27] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 06:44:28] SELECT * FROM patient 
+[2025-01-25 06:44:28] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:44:31] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:44:31] select count(*) as 'count' from patient
+[2025-01-25 06:44:31] select count(*) as 'count' from hc_medicineinventory
+[2025-01-25 06:44:31] select count(*) as 'count' from appointment
+[2025-01-25 06:44:31] select count(*) as 'count' from request where status = 'pending'
+[2025-01-25 06:44:32] SELECT * FROM patient 
+[2025-01-25 06:44:33] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:47:01] SELECT * FROM patient 
+[2025-01-25 06:47:01] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:50:43] SELECT * FROM patient 
+[2025-01-25 06:50:43] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:50:55] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:50:57] SELECT * FROM hc_medicineinventory 
+[2025-01-25 06:50:57] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:51:00] SELECT * FROM hc_medicineinventory 
+[2025-01-25 06:51:00] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:51:02] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:51:02] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 06:51:04] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:56:54] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:56:54] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 06:56:57] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:57:51] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:59:29] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 06:59:29] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 07:00:04] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 07:00:04] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 07:00:14] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 07:00:14] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 07:00:15] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 07:00:16] SELECT * FROM hc_medicineinventory 
+[2025-01-25 07:00:16] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 07:00:18] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 07:00:32] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 07:04:24] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 07:04:24] select count(*) as 'count' from patient
+[2025-01-25 07:04:24] select count(*) as 'count' from hc_medicineinventory
+[2025-01-25 07:04:24] select count(*) as 'count' from appointment
+[2025-01-25 07:04:24] select count(*) as 'count' from request where status = 'pending'
+[2025-01-25 07:04:27] SELECT * FROM patient 
+[2025-01-25 07:04:27] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 07:04:30] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 07:04:31] SELECT * FROM hc_medicineinventory 
+[2025-01-25 07:04:32] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 07:04:34] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 07:04:34] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 07:04:35] SELECT * FROM patient 
+[2025-01-25 07:04:35] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 07:04:35] SELECT * FROM patient 
+[2025-01-25 07:04:36] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 07:04:37] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 07:04:39] SELECT * FROM hc_medicineinventory 
+[2025-01-25 07:04:39] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 07:04:41] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 07:04:42] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 07:04:44] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 07:04:44] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 08:31:13] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 08:31:13] select count(*) as 'count' from patient
+[2025-01-25 08:31:13] select count(*) as 'count' from hc_medicineinventory
+[2025-01-25 08:31:13] select count(*) as 'count' from appointment
+[2025-01-25 08:31:13] select count(*) as 'count' from request where status = 'pending'
+[2025-01-25 08:31:21] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 08:31:21] select count(*) as 'count' from patient
+[2025-01-25 08:31:21] select count(*) as 'count' from hc_medicineinventory
+[2025-01-25 08:31:21] select count(*) as 'count' from appointment
+[2025-01-25 08:31:21] select count(*) as 'count' from request where status = 'pending'
+[2025-01-25 08:31:35] SELECT * FROM patient 
+[2025-01-25 08:31:35] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 08:31:42] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 08:32:10] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 08:32:30] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 08:32:30] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 08:32:40] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 08:32:40] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 08:32:42] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 08:32:42] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 08:33:12] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 08:33:30] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 08:33:30] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 08:34:13] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 08:34:13] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 08:34:20] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 08:34:20] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 08:34:58] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 08:35:15] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 08:35:15] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 08:35:30] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 08:35:50] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 08:35:50] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 08:36:00] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 08:36:06] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 08:36:06] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 08:36:08] SELECT * FROM hc_medicineinventory 
+[2025-01-25 08:36:08] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 08:36:10] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 08:36:40] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 08:37:09] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 08:37:09] select count(*) as 'count' from patient
+[2025-01-25 08:37:09] select count(*) as 'count' from hc_medicineinventory
+[2025-01-25 08:37:09] select count(*) as 'count' from appointment
+[2025-01-25 08:37:09] select count(*) as 'count' from request where status = 'pending'
+[2025-01-25 09:16:02] SELECT * FROM patient 
+[2025-01-25 09:16:02] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:16:03] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:16:04] SELECT * FROM hc_medicineinventory 
+[2025-01-25 09:16:04] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:16:06] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:16:06] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 09:16:08] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:16:08] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 09:16:11] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:16:11] select count(*) as 'count' from patient
+[2025-01-25 09:16:11] select count(*) as 'count' from hc_medicineinventory
+[2025-01-25 09:16:11] select count(*) as 'count' from appointment
+[2025-01-25 09:16:11] select count(*) as 'count' from request where status = 'pending'
+[2025-01-25 09:16:13] SELECT * FROM patient 
+[2025-01-25 09:16:13] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:16:14] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:16:16] SELECT * FROM hc_medicineinventory 
+[2025-01-25 09:16:16] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:16:18] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:16:18] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 09:16:20] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:16:20] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 09:16:26] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:16:26] select count(*) as 'count' from patient
+[2025-01-25 09:16:26] select count(*) as 'count' from hc_medicineinventory
+[2025-01-25 09:16:26] select count(*) as 'count' from appointment
+[2025-01-25 09:16:26] select count(*) as 'count' from request where status = 'pending'
+[2025-01-25 09:16:34] SELECT * FROM patient 
+[2025-01-25 09:16:34] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:16:36] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:18:00] SELECT * FROM patient 
+[2025-01-25 09:18:00] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:19:18] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:19:18] select count(*) as 'count' from patient
+[2025-01-25 09:19:18] select count(*) as 'count' from hc_medicineinventory
+[2025-01-25 09:19:19] select count(*) as 'count' from appointment
+[2025-01-25 09:19:19] select count(*) as 'count' from request where status = 'pending'
+[2025-01-25 09:42:24] SELECT * FROM patient 
+[2025-01-25 09:42:24] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:42:25] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:42:25] select count(*) as 'count' from patient
+[2025-01-25 09:42:25] select count(*) as 'count' from hc_medicineinventory
+[2025-01-25 09:42:25] select count(*) as 'count' from appointment
+[2025-01-25 09:42:25] select count(*) as 'count' from request where status = 'pending'
+[2025-01-25 09:42:26] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:42:27] SELECT * FROM hc_medicineinventory 
+[2025-01-25 09:42:27] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:42:29] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:42:29] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 09:42:31] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:42:31] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 09:42:32] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:42:32] select count(*) as 'count' from patient
+[2025-01-25 09:42:32] select count(*) as 'count' from hc_medicineinventory
+[2025-01-25 09:42:32] select count(*) as 'count' from appointment
+[2025-01-25 09:42:32] select count(*) as 'count' from request where status = 'pending'
+[2025-01-25 09:43:12] select * from hc_user where hc_email = 'fjkshf@gamail.com' and hc_password = 'xdf'
+[2025-01-25 09:43:17] select * from hc_user where hc_email = 'fjkshf@gamail.com' and hc_password = 'saf'
+[2025-01-25 09:43:23] select * from hc_user where hc_email = 'sfjkshf@gamail.com' and hc_password = 'sdf'
+[2025-01-25 09:43:23] select now() as time
+[2025-01-25 09:43:23] select timestampdiff(SECOND, now(), '2025-01-25 16:43:53')%60 'sec', timestampdiff(SECOND, now(), '2025-01-25 16:43:53')/60 'min'
+[2025-01-25 09:43:23] select timestampdiff(SECOND, now(), '2025-01-25 16:43:53')%60 'sec', timestampdiff(SECOND, now(), '2025-01-25 16:43:53')/60 'min'
+[2025-01-25 09:43:54] select timestampdiff(SECOND, now(), '2025-01-25 16:43:53')%60 'sec', timestampdiff(SECOND, now(), '2025-01-25 16:43:53')/60 'min'
+[2025-01-25 09:43:54] select timestampdiff(SECOND, now(), '2025-01-25 16:43:53')%60 'sec', timestampdiff(SECOND, now(), '2025-01-25 16:43:53')/60 'min'
+[2025-01-25 09:44:09] select * from hc_user where hc_email = 'admin@gmail.com' and hc_password = 'admin'
+[2025-01-25 09:44:09] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:44:09] select count(*) as 'count' from patient
+[2025-01-25 09:44:09] select count(*) as 'count' from hc_medicineinventory
+[2025-01-25 09:44:09] select count(*) as 'count' from appointment
+[2025-01-25 09:44:09] select count(*) as 'count' from request where status = 'pending'
+[2025-01-25 09:44:31] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:44:31] select count(*) as 'count' from patient
+[2025-01-25 09:44:31] select count(*) as 'count' from hc_medicineinventory
+[2025-01-25 09:44:31] select count(*) as 'count' from appointment
+[2025-01-25 09:44:31] select count(*) as 'count' from request where status = 'pending'
+[2025-01-25 09:44:33] SELECT * FROM patient 
+[2025-01-25 09:44:33] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:44:50] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:45:51] SELECT * FROM hc_medicineinventory 
+[2025-01-25 09:45:52] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:46:05] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:46:05] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 09:46:20] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 09:46:20] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 12:58:58] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 12:58:58] select count(*) as 'count' from patient
+[2025-01-25 12:58:58] select count(*) as 'count' from hc_medicineinventory
+[2025-01-25 12:58:59] select count(*) as 'count' from appointment
+[2025-01-25 12:58:59] select count(*) as 'count' from request where status = 'pending'
+[2025-01-25 12:59:21] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 13:01:38] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 13:01:45] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 13:01:45] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 13:02:25] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 13:02:25] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 13:02:31] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 13:02:31] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 13:02:35] SELECT * FROM hc_medicineinventory 
+[2025-01-25 13:02:35] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 13:07:34] SELECT * FROM hc_medicineinventory 
+[2025-01-25 13:07:35] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 13:07:38] SELECT * FROM hc_medicineinventory 
+[2025-01-25 13:07:38] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 13:07:39] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 14:06:06] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 14:06:06] select count(*) as 'count' from patient
+[2025-01-25 14:06:06] select count(*) as 'count' from hc_medicineinventory
+[2025-01-25 14:06:06] select count(*) as 'count' from appointment
+[2025-01-25 14:06:06] select count(*) as 'count' from request where status = 'pending'
+[2025-01-25 14:06:18] SELECT * FROM patient 
+[2025-01-25 14:06:18] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 14:06:21] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 14:06:23] SELECT * FROM patient 
+[2025-01-25 14:06:23] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 14:07:13] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 14:07:15] SELECT * FROM hc_medicineinventory 
+[2025-01-25 14:07:15] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 14:07:21] SELECT * FROM hc_medicineinventory 
+[2025-01-25 14:07:22] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 14:07:23] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 14:07:24] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 14:07:28] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 14:07:30] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 14:07:30] select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.ApplicationDate, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;
+[2025-01-25 14:07:30] SELECT * FROM hc_medicineinventory 
+[2025-01-25 14:07:31] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 14:07:34] select * from hc_medicineinventory where hc_id = 4
+[2025-01-25 14:07:38] SELECT * FROM hc_medicineinventory 
+[2025-01-25 14:07:38] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 14:22:26] SELECT * FROM patient 
+[2025-01-25 14:22:26] SELECT * FROM patient 
+[2025-01-25 14:22:27] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 14:22:37] SELECT * FROM patient 
+[2025-01-25 14:22:37] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 14:23:46] SELECT * FROM patient 
+[2025-01-25 14:23:46] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 14:24:17] SELECT * FROM patient 
+[2025-01-25 14:24:17] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 14:24:52] SELECT * FROM patient 
+[2025-01-25 14:24:52] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 14:25:35] SELECT * FROM patient 
+[2025-01-25 14:25:35] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 14:27:31] SELECT * FROM patient 
+[2025-01-25 14:27:31] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 14:28:24] SELECT * FROM patient 
+[2025-01-25 14:28:24] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 14:33:41] SELECT * FROM patient 
+[2025-01-25 14:33:42] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 14:36:17] SELECT * FROM patient 
+[2025-01-25 14:36:17] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 14:37:18] SELECT * FROM patient 
+[2025-01-25 14:37:18] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 14:39:04] SELECT * FROM patient 
+[2025-01-25 14:39:04] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 14:39:37] SELECT * FROM patient 
+[2025-01-25 14:39:37] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";
+[2025-01-25 15:30:30] SELECT * FROM hc_medicineinventory 
+[2025-01-25 15:30:32] select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";

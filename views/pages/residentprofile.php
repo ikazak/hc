@@ -1,3 +1,25 @@
+                                           
+
+          <?php 
+                                                            
+          $first_name = $column["first_name"];
+          $surname = $column["surname"];
+          $age = $column["age"];
+          $number = $column["contact"];
+          $bday = $column["bday"];
+          $cstatus = $column["civil_status"];
+          $occupation = $column["occupation"];
+          $religion = $column["religion"];
+          $sex = $column["sex"];
+          $address = $column["home_address"];
+          ?>
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,30 +57,31 @@
 <div class="container-fluid">   
     <div class="row">
         <div class="col-12">
-          <div><button data-toggle="modal" data-target="#bd-example-modal-lg" class="submit" type="button" id="sendfile">ADD</button></div>
+          
         <section class="card-section">
-        <?php $res = db_select("hc_resident")['data']; ?>
+        <?php $res = db_select("patient")['data']; ?>
 
         <?php while($column = fetch_array($res)): ?>
         
         <?php
-          $id =  $column['id'];
-          $photo = $column['photo'];
-          $fname = $column['fname'];
-          $cont = $column['contact'];
-          $add = $column['address'];
+          $id =  $column['patientID'];
+          $fname = $column['first_name'];
+          $surname = $column['surname'];
+          $cont = $column['age'];
+          $add = $column['home_address'];
           ?>
         
         <div class="card">
             <a href="#" data-toggle="modal" data-target="#details-modal">
-            <?php if($photo==null): ?>
-              <img src="https://via.placeholder.com/250x150" alt="Profile Image">
-            <?php else: ?>
-              <img src="<?=uploads($photo)?>" alt="Profile Image" height="50" width="50">
-            <?php endif; ?>
-            <h3><?=$fname?></h3>
-            <p><strong>Contact:</strong> <?= $cont ?></p>
-            <p><strong>Address:</strong> <?=$add?></p>
+            
+              <img src="<?=img("user.png")?>" alt="Profile Image">
+            
+              
+            
+            <h3></h3>
+            <p><strong><?=$fname?><?=" "?><?=$surname?></strong> </p>
+            <p><strong>Age: <?=$cont?></strong> </p>
+            <p><strong><Address><?=$add?></Address></strong> </p>
             </a>
         </div>
 
@@ -192,7 +215,7 @@
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="myLargeModalLabel">Add Resident</h4>
+                <h4 class="modal-title" id="myLargeModalLabel">Update Resident</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             </div>
             <form action="/crud/addresident" method="post" enctype="multipart/form-data">
@@ -200,29 +223,92 @@
 
                 
 
-            <div class="profile-card my-4">
-                <!-- Profile Picture -->
-                <img src="https://via.placeholder.com/120" alt="Profile Picture" class="profile-picture">
-                <!-- Profile Info -->
-                <h2>Juan Dela Cruz</h2>
-                <ul class="profile-details">
-                  <li><strong>Age:</strong> 30</li>
-                  <li><strong>Contact Number:</strong> +63 912 345 6789</li>
-                  <li><strong>Sex:</strong> Male</li>
-                  <li><strong>Birthday:</strong> January 1, 1994</li>
-                  <li><strong>Address:</strong> 123 Mabini Street, Manila, Philippines</li>
-                  <li><strong>Civil Status:</strong> Single</li>
-                  <li><strong>Occupation:</strong> Software Developer</li>
-                  <li><strong>Religion:</strong> Roman Catholic</li>
-                </ul>
-              </div>
+            <form action="<?=$id?>" method="post" >
+                                              
+                                        <div">
+                                        <div>
+                                        <div class="form-group">
+                                            <label><strong>First name</strong></label>
+                                            <input value="<?=$first_name?>" name="first_name" type="text" class="form-control" placeholder="Medicine Name">
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label><strong>Surname</strong></label>
+                                            <input value="<?=$surname?>" name="surname" type="text" class="form-control" placeholder="">
+                                        </div>
 
+                                        <div class="form-group">
+                                            <label><strong>Age</strong></label>
+                                            <input value="<?=$age?>" name="hc_quantity" type="text" class="form-control" placeholder="">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label><strong>Contact Number</strong></label>
+                                            <input value="<?=$number?>" name="number" type="text" class="form-control" placeholder="">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label><strong>Birthday</strong></label>
+                                            <input value="<?=$bday?>" name="bday" type="date" class="form-control" placeholder="">
+                                        </div>
+
+                                        </div>
+
+
+                                        <div>
+
+                                        <div class="form-group">
+                                            <label><strong>Civil status</strong></label>
+                                            <input value="<?=$cstatus?>" name="cstatus" type="text" class="form-control" placeholder="">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label><strong>Occupation</strong></label>
+                                            <input value="<?=$occupation?>" name="occupation" type="text" class="form-control" placeholder="">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label><strong>Religion</strong></label>
+                                            <input value="<?=$religion?>" name="Religion" type="text" class="form-control" placeholder="">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label><strong>Sex</strong></label>
+                                            <select class="form-select" id="dropdown1" name="sex">
+                                            <option value="<?=$sex?>">Select</option>
+                                           <?php
+                                            $options = ["Male","Female"];
+                                            foreach ($options as $id=>$name) {
+                                            echo "<option value='$id'>$name</option>";
+                                            }
+                                            ?>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label><strong>Address</strong></label>
+                                            <input value="<?=$address?>" name="address" type="text" class="form-control" placeholder="">
+                                        </div>
+
+                                        
+                                        </div>
+
+                                        </div>
+
+                                        <div align="right"">
+                                        <button  style="width: 100px;";type="submit" class="btn btn-primary" >Save</button>
+                                        </div>
+                                        
+                                    </form>
+            </div>
+
+            
 
 
 
             </div>
             <div class="modal-footer">
-                <button type="submit" class="btn btn-primary" >Send</button>
+                
             </div>
             </form>
         </div>

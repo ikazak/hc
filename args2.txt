@@ -1,0 +1,1 @@
+INSERT INTO immunization_application (patientID, scheduleID, applicationDate, Status, servicesID) VALUES ('39', '1', '2025-01-26', 'pending', '4')

@@ -41,7 +41,7 @@
                                         <i class="icon-envelope-open"></i>
                                         <span class="ml-2">Inbox </span>
                                     </a>
-                                    <a onclick="return confirm('are you sure you want to log out?')" href="/log/loginpage" class="dropdown-item">
+                                    <a  onclick="return confirm('are you sure you want to log out?')" href="/log/loginpage" class="dropdown-item">
                                         <i class="icon-key"></i>
                                         <span class="ml-2">Logout </span>
                                     </a>
@@ -97,8 +97,21 @@
                                                     <div>${column.serviceType}</div>
                                                     <div><small>${column.scheduleDate}</small></div>
                                             </div>
-                                            <a href="">approve</a>
+                                            <a style="cursor: pointer;" onclick="aprove(${column.serviceID},${column.patientID},'${column.fullname}')">approve</a>
                                         </li>`)
                 });
             });
+        </script>
+
+        <script>
+            function aprove(servicesID,patiendID,name){
+                let data = {
+                    "patientID":patiendID,
+                    "servicesID":servicesID,
+                };
+                let result = jspost(`/crud/approved?name=${name}`,data);
+    
+                alert(result.backend.message);
+
+            }
         </script>

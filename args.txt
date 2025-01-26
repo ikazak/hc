@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"email":"hg","password":"lp"}
+=======
+200successData inserted000
+>>>>>>> 1c56c6b7d2e3899c5a23a01d7b93dde2523daa30

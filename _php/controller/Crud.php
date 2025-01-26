@@ -36,6 +36,17 @@
             redirect("main/medicineinventory");
         }
 
+
+        
+
+
+        function updatepatient(){
+            $data = post_data();
+            $where["patientID"]=get("patientID");
+            $result = db_update("patient",$data,$where);
+            redirect("main/residentprofile");
+        }
+
         function addresident(){
             $pict = upload_file("photo",auto_rename);
             $data = post_data();
@@ -50,9 +61,27 @@
             json_response($data);
         }
 
-        function displayrequest(){
-            $data = db_set_query('select r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";');
+        function appointmenthistory(){
+            $data = db_set_query('select a.appointmentID, concat(p.first_name," ",p.surname) "fullname", i.Date, s.ServicesType, a.Status from appointment a, patient p, immunization_schedule i, services s where a.patientID = p.patientID and a.scheduleID = i.scheduleID AND a.servicesID = s.servicesID;');
             json_response($data);
+        }
+
+        function displayrequest(){
+            $data = db_set_query('select r.patientID, r.serviceID, r.requestID, concat(p.first_name," ",p.surname) "fullname", r.serviceType, r.scheduleDate, r.status FROM request r, patient p, services s where r.patientID = p.patientID and  r.serviceID = s.servicesID and r.status = "Pending";');
+            json_response($data);
+        }
+
+        function approved(){
+            $data = post_data();
+            $data["scheduleID"]="1";
+            $data["ApplicationDate"]= date("Y-m-d");
+            $data["Status"]="pending";
+            $name=get("name");
+            sendsms("hello $name your application has been approved");
+           
+            $result = db_insert("appointment",$data);
+            json_response($result);
+
         }
 
 

@@ -56,9 +56,11 @@
                                                 <th>Services</th>
                                                 <th>Application Date</th>
                                                 <th>Status</th>
+                                                <th>Action</th>
                                             </tr>
                                         </thead>
                                         <tbody>
+                                            
                                         </tbody> 
                                     </table>
                                 </div>
@@ -164,14 +166,46 @@
         
         log(data);
         data.forEach(column => {
-            datatable.row.add([
+            let status = column.Status;
+            let stat = ``;
+          
+            if(status == "Pending"){
+                datatable.row.add([
                 column.appointmentID || "1",
                 column.fullname || "1",
                 column.Date || "1",
                 column.ServicesType || "1",
                 column.ApplicationDate || "1",
-                column.Status || "1",
+                 "Pending",
+                `<button class="btn btn-primary">incomplete</button>`
             ]).draw();
+            }
+        });
+    });
+</script>
+
+<script>
+    window_loaded(async()=>{
+        let datatable = $("#appointmenttbl").DataTable();
+        let resolt= await direct_get("/Crud/getappointment");
+        let data = resolt.backend.data;
+        
+        log(data);
+        data.forEach(column => {
+            let status = column.Status;
+            let stat = ``;
+          
+            if(status == "Pending"){
+                datatable.row.add([
+                column.appointmentID || "1",
+                column.fullname || "1",
+                column.Date || "1",
+                column.ServicesType || "1",
+                column.ApplicationDate || "1",
+                 "Pending",
+                `<button class="btn btn-primary">incomplete</button>`
+            ]).draw();
+            }
         });
     });
 </script>
